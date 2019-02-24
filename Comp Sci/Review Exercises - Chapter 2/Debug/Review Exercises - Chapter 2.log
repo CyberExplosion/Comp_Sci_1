@@ -1,4 +1,33 @@
-﻿  Programming Challenge - How much paint.cpp
-  Review Questions - 17.cpp
-  Generating Code...
-  Review Exercises - Chapter 2.vcxproj -> H:\Computer Science Class\Comp Sci\Debug\Review Exercises - Chapter 2.exe
+﻿  Programming Challenge - Sum of Two Numbers.cpp
+  Algorithm Workbench  - 22cpp.cpp
+  Algorithm Workbench - 21.cpp
+  Algorithm Workbench - 22.cpp
+  Algorithm Workbench - 24.cpp
+  Programmign Challenge - Restaurant Bill.cpp
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programmign challenge - restaurant bill.cpp(6): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programmign challenge - restaurant bill.cpp(7): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Programming Challenge - Annual High Temperatures.cpp
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - annual high temperatures.cpp(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Programming Challenge - Basketball Player Height.cpp
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - basketball player height.cpp(5): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Programming Challenge - Circuit  Board Price.cpp
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - circuit  board price.cpp(12): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - circuit  board price.cpp(13): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Programming Challenge - Diamond Pattern.cpp
+  Programming Challenge - Distance per Tank of Gas.cpp
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - distance per tank of gas.cpp(7): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Programming Challenge - Energy Drink Consumption.cpp
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - energy drink consumption.cpp(6): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - energy drink consumption.cpp(7): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Programming Challenge - Future Ocean Levels.cpp
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - future ocean levels.cpp(10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - future ocean levels.cpp(11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Programming Challenge - How much paint.cpp
+  Programming Challenge - Land Calculation.cpp
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - land calculation.cpp(10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Programming Challenge - Miles per Gallon.cpp
+  Programming Challenge - Number of Acres.cpp
+  Programming Challenge - Past Ocean Levelscpp.cpp
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - past ocean levelscpp.cpp(11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\comp sci\comp_sci_1\comp sci\review exercises - chapter 2\programming challenge - past ocean levelscpp.cpp(12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Programming Challenge - Pay Period Gross Pay.cpp

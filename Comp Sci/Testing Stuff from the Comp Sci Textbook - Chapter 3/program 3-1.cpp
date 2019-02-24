@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main_done1() {
 	int length, width, area;
 
 	cout << "This program calculates the area of a rectangle.\n";
