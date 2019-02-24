@@ -1,0 +1,4 @@
+﻿  Interger Data Types.cpp
+h:\computer science class\comp sci\coding discoveries\interger data types.cpp(12): warning C4307: '+': integral constant overflow
+h:\computer science class\comp sci\coding discoveries\interger data types.cpp(19): warning C4309: 'initializing': truncation of constant value
+  Coding Discoveries.vcxproj -> H:\Computer Science Class\Comp Sci\Debug\Coding Discoveries.exe
