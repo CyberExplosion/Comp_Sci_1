@@ -12,10 +12,10 @@ Download these files using your files downloader of choice, or use Git and just 
 ```
 Download and then use
 ```
-~This marks the end of example~, screw you this is set to personal anyway. **Thank you** :smile:
+~This marks the end of example~, this is set to personal so I don't know how you even get accessed to my reposistory, but if you are reading this right now, please don't distribute and mess with my main branch :frown: **Thank you** :smile:
 > Example of what will happen:
 ![Good job on learning how to make readme](https://pngimage.net/wp-content/uploads/2018/05/fallout-thumbs-up-png-1.png)
-> That's it for demo
+> That's it for the demo
 ### Deployment
 This is only built to be used by the author and his friends alone. Do not distibuted or use in any way without notifying the author of this reposistory
 ### Built with
@@ -26,10 +26,10 @@ This is only built to be used by the author and his friends alone. Do not distib
 There're no need to contribute anything and you will not find anyway to do it anyway. If you still want to contribute then send me an email uses the email address in my profile. Credits will be negotiated later.
 ## Authors
 * **Khoi Nguyen** - Creator of *Everything*
-*Currently have no contributers*
+* *Currently have no contributers*
 ## Licenese
 This project is maintained under my hand and are not under any licenesed. That being said, no one should be able to use this repository anyway so there are no need.
 ##Acknowledgements
 * My friends and family
-* Nelson you and me are gona make the biggest project this school can possibly handle :smile:
+* Nelson you and me are gona make the biggest project this school can possibly handle :thumb_up:
 * *Pro. Edwin Ambrosio* Thank you for you lectures and all the works you have poured into making us a better programmer and person :3
