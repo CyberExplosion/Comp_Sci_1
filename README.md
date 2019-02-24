@@ -32,4 +32,4 @@ This project is maintained under my hand and are not under any licenesed. That b
 ##Acknowledgements
 * My friends and family :kissing:
 * Nelson you and me are gona make the biggest project this school can possibly handle **brofist**:punch:
-* *Pro. Edwin Ambrosio* Thank you for you lectures and all the works you have poured into making us a better programmer and person :sastified:
+* *Pro. Edwin Ambrosio* Thank you for you lectures and all the works you have poured into making us a better programmer and person :sastisfied:
