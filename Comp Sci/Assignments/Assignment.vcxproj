@@ -23,7 +23,7 @@
     <ProjectGuid>{7114E2CB-345D-4BA3-815A-FE65A6315F66}</ProjectGuid>
     <RootNamespace>Assignment</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>Assignments</ProjectName>
+    <ProjectName>Assignments_Build</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,6 +78,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -118,6 +121,7 @@
   <ItemGroup>
     <ClCompile Include="Assignment 1.cpp" />
     <ClCompile Include="Assignment 2.cpp" />
+    <ClCompile Include="Assignment 3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

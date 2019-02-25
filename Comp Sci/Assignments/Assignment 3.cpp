@@ -1,0 +1,55 @@
+//Khoi Nguyen
+//CS 1, Section #0109
+//Asignment 3
+//A program that produces a simple text-based adventure game called Lost Fortune.
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	/*Pseudo Code
+	Input:
+		number of explorer
+		number of explorer lost in battle
+		GOLD = 750
+	Processing:
+		number of  survivor = number of explorer - number of explorer lost in battle
+		{gold for player = remainer }
+			\
+			  {remainer = gold % surviors}
+	Output:
+		explorers
+		lost
+		survivors
+		gold for player
+end
+-- Variable Use: explorers, explorer_lost, survivors, gold for player, gold	
+	*/
+	int explorers,
+		explorers_lost,
+		survivors,
+		player_gold;
+	const int GOLD = 750;
+
+	cout << "Welcome to the Lost Fortune!\n\n";
+	cout << "Please answer the following questions for your personalized adventure: \n\n";
+	cout << "Enter the number of Explorers:\n";
+	cin >> explorers;
+	cout << "Enter the number of Explorers Lost in Battle:\n";
+	cin >> explorers_lost;
+	cout << endl;
+	
+	survivors = explorers - explorers_lost;
+	player_gold = GOLD % survivors; // player gold is the remainer after the gold is divdied equally to each survivors
+
+	cout << "You bravely led " << explorers << " adventures on a quest for gold.\n";
+	cout << "The group fought a band of ogres and lost " << explorers_lost << " members.\n";
+	cout << "Only " << survivors << " survived.\n\n";
+	cout << "The party was about to give up when they stumbled upon the buried\n" 
+		<< "fortune of " << GOLD << " gold pieces. The group split the loot evenly and as the\n"
+		<< "quest leader you kept the extra " << player_gold << " gold pieces.\n";
+
+	return 0;
+}

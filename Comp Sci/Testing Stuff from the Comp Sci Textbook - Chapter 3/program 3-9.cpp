@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main_done9() {
 	//Set int_var to the max a short int can hold
 	short int_var = 32767;
 

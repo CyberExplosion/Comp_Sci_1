@@ -120,7 +120,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Checkpoint 3.13.cpp" />
+    <ClCompile Include="Checkpoint 3.18.cpp" />
     <ClCompile Include="program 3-1.cpp" />
+    <ClCompile Include="program 3-10.cpp" />
+    <ClCompile Include="program 3-11.cpp" />
+    <ClCompile Include="program 3-12.cpp" />
+    <ClCompile Include="program 3-13.cpp" />
+    <ClCompile Include="program 3-14.cpp" />
+    <ClCompile Include="Program 3-15.cpp" />
+    <ClCompile Include="program 3-16.cpp" />
+    <ClCompile Include="program 3-17.cpp" />
+    <ClCompile Include="program 3-18.cpp" />
     <ClCompile Include="program 3-2.cpp" />
     <ClCompile Include="program 3-3.cpp" />
     <ClCompile Include="program 3-4.cpp" />
