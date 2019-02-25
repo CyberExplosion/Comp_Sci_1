@@ -17,7 +17,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Review Exercises - Chapter 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Testing Stuff from the Comp Sci Textbook - Chapter 3", "Testing Stuff from the Comp Sci Textbook - Chapter 3\Testing Stuff from the Comp Sci Textbook - Chapter 3.vcxproj", "{762E8AD0-9AA8-4DCB-BDC1-AFD56D7F0773}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assignments_Build", "Assignments\Assignment.vcxproj", "{7114E2CB-345D-4BA3-815A-FE65A6315F66}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assignments_Build", "Assignments_Build\Assignment.vcxproj", "{7114E2CB-345D-4BA3-815A-FE65A6315F66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
