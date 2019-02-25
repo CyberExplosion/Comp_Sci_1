@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+int main_done18() {
 	string month1 = "January",
 		month2 = "February",
 		month3 = "March";

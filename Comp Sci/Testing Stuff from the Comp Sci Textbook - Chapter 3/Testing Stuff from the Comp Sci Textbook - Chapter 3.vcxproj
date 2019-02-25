@@ -121,6 +121,7 @@
   <ItemGroup>
     <ClCompile Include="Checkpoint 3.13.cpp" />
     <ClCompile Include="Checkpoint 3.18.cpp" />
+    <ClCompile Include="cin.get() and cin and cin.ignore().cpp" />
     <ClCompile Include="program 3-1.cpp" />
     <ClCompile Include="program 3-10.cpp" />
     <ClCompile Include="program 3-11.cpp" />
@@ -131,7 +132,17 @@
     <ClCompile Include="program 3-16.cpp" />
     <ClCompile Include="program 3-17.cpp" />
     <ClCompile Include="program 3-18.cpp" />
+    <ClCompile Include="program 3-19.cpp" />
     <ClCompile Include="program 3-2.cpp" />
+    <ClCompile Include="program 3-20.cpp" />
+    <ClCompile Include="program 3-21.cpp" />
+    <ClCompile Include="program 3-22.cpp" />
+    <ClCompile Include="program 3-23.cpp" />
+    <ClCompile Include="program 3-24.cpp" />
+    <ClCompile Include="program 3-25.cpp" />
+    <ClCompile Include="program 3-26.cpp" />
+    <ClCompile Include="program 3-27.cpp" />
+    <ClCompile Include="program 3-28.cpp" />
     <ClCompile Include="program 3-3.cpp" />
     <ClCompile Include="program 3-4.cpp" />
     <ClCompile Include="program 3-5.cpp" />
