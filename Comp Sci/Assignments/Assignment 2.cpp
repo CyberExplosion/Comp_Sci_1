@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main_done2() {
 	/*Pseudo Code
 Input: num1, num2, num3
 Processing:

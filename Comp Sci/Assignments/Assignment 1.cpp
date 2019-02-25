@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main_done1(){
 	/*Pseudo Code
 	Display Student Infomation
 	Display multiple dashes as many as needs to match the length of the above
