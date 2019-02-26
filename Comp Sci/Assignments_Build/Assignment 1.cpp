@@ -8,11 +8,11 @@ using namespace std;
 
 int main_done1(){
 	/*Pseudo Code
-	Display Student Infomation
+	Display Student Information
 	Display multiple dashes as many as needs to match the length of the above
 	Display Name: "Name of Student"
 	Display Computer Language: "Computer Language student knows"
-	Dispay Favorite Video Game: "Video Game student likes"
+	Display Favorite Video Game: "Video Game student likes"
 	Display Who I would have dinner with: "People student wants to have dinner with"
 	end
 	*/
@@ -21,7 +21,7 @@ int main_done1(){
 	cout << "NAME: Khoi Nguyen \n";
 	cout << "COMPUTER LANGUAGES: C++, HTML, Markdown \n";
 	cout << "FAVORITE VIDEO GAME: Monster Hunter World \n";
-	cout << "WHO I WOULD HAVE DINNER WITH: My girl friend, "; //presumely I would eventualy have one
+	cout << "WHO I WOULD HAVE DINNER WITH: My girl friend, "; //presumably I would eventually have one
 	cout << "Keanu Reeves, Pewdiepie" << endl;
 	return 0;
 }

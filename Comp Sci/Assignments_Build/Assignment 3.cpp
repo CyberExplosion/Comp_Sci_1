@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main_done3() {
 	/*Pseudo Code
 	Input:
 		number of explorer
@@ -16,9 +16,9 @@ int main() {
 		GOLD = 750
 	Processing:
 		number of  survivor = number of explorer - number of explorer lost in battle
-		{gold for player = remainer }
+		{gold for player = remainder }
 			\
-			  {remainer = gold % surviors}
+			  {remainder = gold % survivors}
 	Output:
 		explorers
 		lost
@@ -42,7 +42,7 @@ end
 	cout << endl;
 	
 	survivors = explorers - explorers_lost;
-	player_gold = GOLD % survivors; // player gold is the remainer after the gold is divdied equally to each survivors
+	player_gold = GOLD % survivors; // player gold is the remainder after the gold is divided equally to each survivors
 
 	cout << "You bravely led " << explorers << " adventures on a quest for gold.\n";
 	cout << "The group fought a band of ogres and lost " << explorers_lost << " members.\n";
