@@ -18,12 +18,12 @@ end
 	char input;
 	int ASCII_value;
 
-	cout << "Enter a character: ";
+	cout << "Please enter a character: ";
 	cin >> input;
 
 	ASCII_value = static_cast<int>(input);
 
-	cout << "The ASCII equivalent value is: " << ASCII_value << endl;
+	cout << "The ASCII Code for the character " << input << " is " << ASCII_value << endl;
 
 	return 0;
 }
