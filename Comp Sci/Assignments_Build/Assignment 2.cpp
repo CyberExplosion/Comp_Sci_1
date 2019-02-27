@@ -1,6 +1,6 @@
 //Khoi Nguyen
 //CS1, Section #0109
-//Assignment 2
+//Assignment #1
 //A program that displays the result of 3.0 * 5.0, 7.1 * 8.3 - 2.2, and 3.2 / (6.1 * 5). Display the result of each calculation vertically, decimal right aligned, and rounded to two decimal places similar to what is shown below. Each number should be displayed using either a numeric constant or an expression. Don't need to take input, only output the results.
 
 #include <iomanip>

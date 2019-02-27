@@ -1,3 +1,4 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assignments.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Assignment 4.cpp
-  Assignment.vcxproj -> E:\Computer Science Class\Comp_Sci_1\Comp Sci\Debug\Assignments_Build.exe
+﻿D:\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assignments.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Assignment 6.cpp
+d:\comp sci\comp_sci_1\comp sci\assignments_build\assignment 6.cpp(19): warning C4101: 'ASCII_value': unreferenced local variable
+  Assignment.vcxproj -> D:\Comp Sci\Comp_Sci_1\Comp Sci\Debug\Assignments_Build.exe

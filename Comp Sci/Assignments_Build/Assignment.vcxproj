@@ -124,6 +124,7 @@
     <ClCompile Include="Assignment 3.cpp" />
     <ClCompile Include="Assignment 4.cpp" />
     <ClCompile Include="Assignment 5.cpp" />
+    <ClCompile Include="Assignment 6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

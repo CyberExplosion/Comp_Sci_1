@@ -1,6 +1,6 @@
 //Khoi Nguyen
 //CS 1, Section #0109
-//Assignment 4
+//Assignment #1
 //A program that takes in the user input then display the area of the base of the pyramid, the height of the pyramid, and finally the volume of the pyramid
 
 #include <iostream>

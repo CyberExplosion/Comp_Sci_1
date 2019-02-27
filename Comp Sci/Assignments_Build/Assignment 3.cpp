@@ -1,6 +1,6 @@
 //Khoi Nguyen
 //CS 1, Section #0109
-//Asignment 3
+//Assignment #1
 //A program that produces a simple text-based adventure game called Lost Fortune.
 
 

@@ -1,6 +1,6 @@
 //Khoi Nguyen
 //CS 1, Section #0109
-//Assignment 1
+//Assignment #1
 //A program that displays information about myself: my name, the computer languages I know, my favorite video game and 3 people I want to have dinner with.
 
 #include <iostream>
