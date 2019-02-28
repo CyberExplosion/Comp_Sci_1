@@ -48,12 +48,12 @@ end
 
 	cout << "BOB'S FRUITS GROCERY INVOICE\n"
 		<< "----------------------------\n"
-		<< showpoint << fixed << setprecision(2)
-		<< apple_amount << " Apples @ " << APPLE_PRICE << " each  = " << "$ " << total_apple << endl
-		<< orange_amount << " Oranges@ " << ORANGE_PRICE << " each  = " << "$ " << total_orange << endl
-		<< banana_amount << " Bananas@ " << BANANA_PRICE << " each  = " << "$ " << total_banana << endl
+		<< showpoint << fixed << setprecision(2);
+	cout << setw(4) << apple_amount << " " <<"Apples @ " << APPLE_PRICE << " each  = " << "$ " << total_apple << endl
+		<< setw(4) << orange_amount << " " <<"Oranges@ " << ORANGE_PRICE << " each  = " << "$ " << total_orange << endl
+		<< setw(4) << banana_amount << " " <<"Bananas@ " << BANANA_PRICE << " each  = " << "$ " << total_banana << endl
 		<< "----------------------------\n"
-		<< setw(27) << "TOTAL = $ " << total << endl;
+		<< setw(29) << "TOTAL = $ " << total << endl;
 
 	return 0;
 }

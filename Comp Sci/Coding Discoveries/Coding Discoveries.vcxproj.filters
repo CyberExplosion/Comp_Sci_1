@@ -21,5 +21,8 @@
     <ClCompile Include="Decimal to Hex convert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Count digitcpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

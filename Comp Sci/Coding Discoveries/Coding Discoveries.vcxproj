@@ -119,6 +119,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Count digitcpp.cpp" />
     <ClCompile Include="Decimal to Hex convert.cpp" />
     <ClCompile Include="Interger Data Types.cpp" />
   </ItemGroup>

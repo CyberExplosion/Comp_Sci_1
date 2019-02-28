@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main_done6() {
 	/*Pseudo Code
 	Input:
 		random character
@@ -16,14 +16,11 @@ int main() {
 end
 	*/
 	char input;
-	int ASCII_value;
 
 	cout << "Please enter a character: ";
 	cin >> input;
 
-	ASCII_value = static_cast<int>(input);
-
-	cout << "The ASCII Code for the character " << input << " is " << ASCII_value << endl;
+	cout << "The ASCII Code for the character " << input << " is " << static_cast<int>(input) << endl;
 
 	return 0;
 }
