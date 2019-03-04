@@ -28,19 +28,22 @@ end
 		area,
 		volume;
 	
-	cout << "Enter the length of a side for the square base: ";
+	cout << "The volume of the square base pyramid\n\n";
+	cout << "Enter the length of a side for the square base: \n\n";
 	cin >> base_length;
-	cout << "Enter the height of the pyramid: ";
+	cout << endl;
+	cout << "Enter the height of the pyramid: \n\n";
 	cin >> height;
+	cout << endl;
 	
 	area = pow(base_length, 2);
 	volume = area * (height/3);
 
 	cout << showpoint << fixed << setprecision(2);
-	cout << "The area of the base of the pyramid is "
-		<< area << " unit square.\n"
-		<< "The height of the pyramid is " << height << " unit.\n"
-		<< "The volume of the pyramid is " << volume << " unit cube.\n";
+	cout << "The area of the base is: "
+		<< area << "\n\n"
+		<< "The height of the pyramid is: " << height << "\n\n"
+		<< "The volume of the pyramid is: " << volume << "\n\n";
 
 	return 0;
 }

@@ -18,10 +18,10 @@ int main_done1(){
 	*/
 	cout << "STUDENT INFORMATION \n";
 	cout << "------------------- \n";
-	cout << "NAME: Khoi Nguyen \n";
-	cout << "COMPUTER LANGUAGES: C++, HTML, Markdown \n";
-	cout << "FAVORITE VIDEO GAME: Monster Hunter World \n";
+	cout << "NAME: Khoi Nguyen \n\n";
+	cout << "COMPUTER LANGUAGES: C++, HTML, Markdown \n\n";
+	cout << "FAVORITE VIDEO GAME: Monster Hunter World \n\n";
 	cout << "WHO I WOULD HAVE DINNER WITH: My girl friend, "; //presumably I would eventually have one
-	cout << "Keanu Reeves, Pewdiepie" << endl;
+	cout << "Keanu Reeves, Pewdiepie\n" << endl;
 	return 0;
 }

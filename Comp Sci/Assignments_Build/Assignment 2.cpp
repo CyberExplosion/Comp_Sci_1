@@ -51,7 +51,7 @@ end
 	cin >> num1;
 	cout << "Enter value for num2: ";
 	cin >> num2;
-	cout << "Enter value for num3 ";
+	cout << "Enter value for num3: ";
 	cin >> num3;
 	//Processing3
 	result3 = num1 / (num2 * num3);

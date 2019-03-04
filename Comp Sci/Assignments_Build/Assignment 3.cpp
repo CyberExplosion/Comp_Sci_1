@@ -37,6 +37,7 @@ end
 	cout << "Please answer the following questions for your personalized adventure: \n\n";
 	cout << "Enter the number of Explorers:\n";
 	cin >> explorers;
+	cout << endl;
 	cout << "Enter the number of Explorers Lost in Battle:\n";
 	cin >> explorers_lost;
 	cout << endl;
@@ -47,9 +48,9 @@ end
 	cout << "You bravely led " << explorers << " adventures on a quest for gold.\n";
 	cout << "The group fought a band of ogres and lost " << explorers_lost << " members.\n";
 	cout << "Only " << survivors << " survived.\n\n";
-	cout << "The party was about to give up when they stumbled upon the buried\n" 
-		<< "fortune of " << GOLD << " gold pieces. The group split the loot evenly and as the\n"
-		<< "quest leader you kept the extra " << player_gold << " gold pieces.\n";
+	cout << "The party was about to give up when they stumbled upon the\n" 
+		<< "buried fortune of " << GOLD << " gold pieces. The group split the loot evenly\n"
+		<< "and as the quest leader you kept the extra " << player_gold << " gold pieces.\n";
 
 	return 0;
 }

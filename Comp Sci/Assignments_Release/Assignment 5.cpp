@@ -33,12 +33,15 @@ end
 		total_apple,
 		total_banana;
 
-	cout << "How many oranges would you like to purchase?\n";
-	cin >> orange_amount;
+	cout << "Welcome to Bob's Fruits Grocery\n\n";
 	cout << "How many apples would you like to purchase?\n";
 	cin >> apple_amount;
+	cout << endl;
 	cout << "How many bananas would you like to purchase?\n";
 	cin >> banana_amount;
+	cout << endl;
+	cout << "How many oranges would you like to purchase?\n";
+	cin >> orange_amount;
 	cout << endl;
 
 	total_orange = orange_amount * ORANGE_PRICE;
@@ -46,14 +49,14 @@ end
 	total_banana = banana_amount * BANANA_PRICE;
 	total = total_apple + total_orange + total_banana;
 
-	cout << "BOB'S FRUITS GROCERY INVOICE\n"
+	cout << "Bob's Fruits Grocery Invoice\n"
 		<< "----------------------------\n"
 		<< showpoint << fixed << setprecision(2);
-	cout << setw(4) << apple_amount << " " <<"Apples @ " << APPLE_PRICE << " each  = " << "$ " << total_apple << endl
-		<< setw(4) << orange_amount << " " <<"Oranges@ " << ORANGE_PRICE << " each  = " << "$ " << total_orange << endl
-		<< setw(4) << banana_amount << " " <<"Bananas@ " << BANANA_PRICE << " each  = " << "$ " << total_banana << endl
-		<< "----------------------------\n"
-		<< setw(29) << "TOTAL = $ " << total << endl;
+	cout << setw(4) << apple_amount << " Apples" << setw(5) << "@ " << APPLE_PRICE << " each" << setw(4) << "=" << " $ " << setw(7) << total_apple << endl
+		<< setw(4) << banana_amount << " Bananas" << setw(4) << "@ " << BANANA_PRICE << " each" << setw(4) << "=" << " $ " << setw(7) << total_banana << endl
+		<< setw(4) << orange_amount << " Oranges" << setw(4) << "@ " << ORANGE_PRICE << " each" << setw(4) << "=" << " $ " << setw(7) << total_orange << endl
+		<< setw(48) << "-----------------" << endl
+		<< setw(32) << "TOTAL = $ " << setw(7) << total << endl;
 
 	return 0;
 }
