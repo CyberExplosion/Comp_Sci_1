@@ -1,6 +1,4 @@
-﻿  Checkpoint 3.13.cpp
-  Checkpoint 3.18.cpp
-  cin.get() and cin and cin.ignore().cpp
+﻿  cin.get() and cin and cin.ignore().cpp
   program 3-1.cpp
   program 3-10.cpp
   program 3-11.cpp
@@ -17,3 +15,21 @@
   program 3-21.cpp
   program 3-22.cpp
   program 3-23.cpp
+  program 3-24.cpp
+  program 3-25.cpp
+  program 3-26.cpp
+  Generating Code...
+  Compiling...
+  program 3-27.cpp
+  program 3-28.cpp
+  program 3-29.cpp
+  program 3-3.cpp
+  program 3-4.cpp
+  program 3-5.cpp
+  program 3-6.cpp
+  program 3-7.cpp
+  program 3-8.cpp
+  program 3-9.cpp
+e:\computer science class\comp_sci_1\comp sci\testing stuff from the comp sci textbook - chapter 3\program 3-9.cpp(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  Testing Stuff from the Comp Sci Textbook - Chapter 3.vcxproj -> E:\Computer Science Class\Comp_Sci_1\Comp Sci\Debug\Testing Stuff from the Comp Sci Textbook - Chapter 3.exe

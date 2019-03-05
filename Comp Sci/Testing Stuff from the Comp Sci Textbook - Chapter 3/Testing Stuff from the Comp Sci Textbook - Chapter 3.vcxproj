@@ -143,7 +143,9 @@
     <ClCompile Include="program 3-26.cpp" />
     <ClCompile Include="program 3-27.cpp" />
     <ClCompile Include="program 3-28.cpp" />
+    <ClCompile Include="program 3-29.cpp" />
     <ClCompile Include="program 3-3.cpp" />
+    <ClCompile Include="program 3-30.cpp" />
     <ClCompile Include="program 3-4.cpp" />
     <ClCompile Include="program 3-5.cpp" />
     <ClCompile Include="program 3-6.cpp" />
