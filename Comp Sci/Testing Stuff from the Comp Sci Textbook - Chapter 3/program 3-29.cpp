@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-int main() {
+int main_done29() {
 	double a, b, c;
 	
 	cout << "Enter the length of side a: ";
