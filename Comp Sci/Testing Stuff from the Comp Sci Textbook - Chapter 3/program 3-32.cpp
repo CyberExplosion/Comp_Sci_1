@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+int main_done32() {
 	unsigned seed;
 	string space;
 	//Use the time function to get a "seed" value for srand

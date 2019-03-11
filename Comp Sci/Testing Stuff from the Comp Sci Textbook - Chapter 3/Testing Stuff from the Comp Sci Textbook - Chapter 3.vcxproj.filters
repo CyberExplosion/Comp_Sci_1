@@ -120,5 +120,8 @@
     <ClCompile Include="program 3-32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Program 3-34.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
