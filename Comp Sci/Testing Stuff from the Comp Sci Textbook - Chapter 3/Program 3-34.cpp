@@ -4,7 +4,7 @@ using namespace std;
 
 const double PRICE_PER_CUBIC_YD = 22.00;
 
-int main() {
+int main_done34() {
 	double square_feet;
 	int depth;
 	double cubic_feet,
