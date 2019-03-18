@@ -122,7 +122,10 @@
     <ClCompile Include="Algorithm Workbench - 23.cpp" />
     <ClCompile Include="Algorithm Workbench - 24.cpp" />
     <ClCompile Include="Algorithm Workbench - 25.cpp" />
+    <ClCompile Include="Programmign Challenges - Test Average.cpp" />
+    <ClCompile Include="Programming Challenges - Batting Average.cpp" />
     <ClCompile Include="Programming Challenges - Housing Costs.cpp" />
+    <ClCompile Include="Programming Challenges - How Much Insurance.cpp" />
     <ClCompile Include="Programming Challenges - Miles per Gallon.cpp" />
     <ClCompile Include="Programming Challenges - Stadium Seating.cpp" />
   </ItemGroup>

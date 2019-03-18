@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main_done3() {
 	/*Pseudo Code
 	Input:
 		monthly cost for each section
@@ -34,5 +34,6 @@ end
 
 	cout << "The monthly expense is: " << monthly_cost << endl
 		<< "The annual expense is: " << annual_cost << endl;
+	
 	return 0;
 }
