@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-int main() {
+int main_done6() {
 	double test_score_1,
 		test_score_2,
 		test_score_3,
