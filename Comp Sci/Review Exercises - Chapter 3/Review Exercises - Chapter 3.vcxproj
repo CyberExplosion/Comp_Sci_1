@@ -124,6 +124,11 @@
     <ClCompile Include="Algorithm Workbench - 25.cpp" />
     <ClCompile Include="Programmign Challenges - Test Average.cpp" />
     <ClCompile Include="Programming Challenge - Average Rainfall.cpp" />
+    <ClCompile Include="Programming Challenge - Box Office.cpp" />
+    <ClCompile Include="Programming Challenge - Celsius to Fahrenheit.cpp" />
+    <ClCompile Include="Programming Challenge - How many Calories.cpp" />
+    <ClCompile Include="Programming Challenge - How many Widgets.cpp" />
+    <ClCompile Include="Programming Challenge - Ingredients Adjuster.cpp" />
     <ClCompile Include="Programming Challenge - Male and Female Percentages.cpp" />
     <ClCompile Include="Programming Challenge - Vacation Days.cpp" />
     <ClCompile Include="Programming Challenges - Batting Average.cpp" />
