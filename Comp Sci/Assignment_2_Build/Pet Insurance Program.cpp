@@ -32,6 +32,7 @@ end
 		<< setw(20) << "Reptile\n"
 		<< "Animal Type: ";
 	cin >> animal_first_letter;
+	cin.ignore(100,'\n');
 	cout << endl;
 	
 	switch (animal_first_letter) {
@@ -39,6 +40,7 @@ end
 	case 'D':
 		cout << "Has the animal been neutered? ";
 		cin >> answer;
+		cin.ignore(100, '\n');
 		cout << endl;
 		switch (answer) {
 		case 'y':
@@ -57,6 +59,7 @@ end
 	case 'C':
 		cout << "Has the animal been neutered? ";
 		cin >> answer;
+		cin.ignore(100, '\n');
 		cout << endl;
 		switch (answer) {
 		case 'y':
