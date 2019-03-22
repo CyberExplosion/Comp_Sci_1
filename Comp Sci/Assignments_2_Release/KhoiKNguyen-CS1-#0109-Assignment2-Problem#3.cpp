@@ -32,6 +32,7 @@ end
 		<< setw(20) << "Reptile\n"
 		<< "Animal Type: ";
 	cin >> animal_first_letter;
+	cin.ignore(100,'\n');
 	cout << endl;
 	
 	switch (animal_first_letter) {
@@ -39,39 +40,47 @@ end
 	case 'D':
 		cout << "Has the animal been neutered? ";
 		cin >> answer;
+		cin.ignore(100, '\n');
 		cout << endl;
-		if (answer == 'y' || answer == 'Y') {
-			cout << "The fee to insure your neutered Dog is $50\n";
-		}
-		else if (answer == 'n' || answer == 'N') {
-			cout << "The fee to insure your non-neutered Dog is $80\n";
-		}
-		else {
-			cout << "Invalid data - no fee calculated.\n";
+		switch (answer) {
+		case 'y':
+		case 'Y':
+			cout << "The fee to insure your neutered Dog is $50\n" << endl;
+			break;
+		case 'n':
+		case 'N':
+			cout << "The fee to insure your non-neutered Dog is $80\n" << endl;
+			break;
+		default:
+			cout << "Invalid data - no fee calculated.\n" << endl;
 		}
 		break;
 	case 'c':
 	case 'C':
 		cout << "Has the animal been neutered? ";
 		cin >> answer;
+		cin.ignore(100, '\n');
 		cout << endl;
-		if (answer == 'y' || answer == 'Y') {
-			cout << "The fee to insure your spayed Cat is $40\n";
-		}
-		else if (answer == 'n' || answer == 'N') {
-			cout << "The fee to insure your non-spayed Cat is $60\n";
-		}
-		else {
-			cout << "Invalid data - no fee calculated.\n";
+		switch (answer) {
+		case 'y':
+		case 'Y':
+			cout << "The fee to insure your spayed Cat is $40\n" << endl;
+			break;
+		case 'n':
+		case 'N':
+			cout << "The fee to insure your non-spayed Cat is $60\n" << endl;
+			break;
+		default:
+			cout << "Invalid data - no fee calculated.\n" << endl;
 		}
 		break;
 	case 'b':
 	case 'B':
-		cout << "There is no cost for your Bird\n";
+		cout << "There is no cost to insure your Bird\n";
 		break;
 	case 'r':
 	case 'R':
-		cout << "There is no cost for your Reptile\n";
+		cout << "There is no cost to insure your Reptile\n";
 		break;
 	default:
 		cout << "Invalid data - no fee calculated\n";
