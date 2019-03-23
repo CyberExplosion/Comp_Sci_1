@@ -69,5 +69,20 @@
     <ClCompile Include="Programming Challenge - Celsius to Fahrenheit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Programming Challenge - Currency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Monthly Sales Tax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Property Tax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Senior Citizen Property Tax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Math Tutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

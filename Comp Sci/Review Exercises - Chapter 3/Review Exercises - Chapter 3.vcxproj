@@ -126,10 +126,15 @@
     <ClCompile Include="Programming Challenge - Average Rainfall.cpp" />
     <ClCompile Include="Programming Challenge - Box Office.cpp" />
     <ClCompile Include="Programming Challenge - Celsius to Fahrenheit.cpp" />
+    <ClCompile Include="Programming Challenge - Currency.cpp" />
     <ClCompile Include="Programming Challenge - How many Calories.cpp" />
     <ClCompile Include="Programming Challenge - How many Widgets.cpp" />
     <ClCompile Include="Programming Challenge - Ingredients Adjuster.cpp" />
     <ClCompile Include="Programming Challenge - Male and Female Percentages.cpp" />
+    <ClCompile Include="Programming Challenge - Math Tutor.cpp" />
+    <ClCompile Include="Programming Challenge - Monthly Sales Tax.cpp" />
+    <ClCompile Include="Programming Challenge - Property Tax.cpp" />
+    <ClCompile Include="Programming Challenge - Senior Citizen Property Tax.cpp" />
     <ClCompile Include="Programming Challenge - Vacation Days.cpp" />
     <ClCompile Include="Programming Challenges - Batting Average.cpp" />
     <ClCompile Include="Programming Challenges - Housing Costs.cpp" />
