@@ -21,5 +21,11 @@
     <ClCompile Include="Assignment 3 - The Greatest, Least, and Average of These.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment 3 - What%27s wrong with program 3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment 3 - What%27s wrong problem 4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

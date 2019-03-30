@@ -121,6 +121,8 @@
   <ItemGroup>
     <ClCompile Include="Assignment 3 - Pennies for Pay.cpp" />
     <ClCompile Include="Assignment 3 - The Greatest, Least, and Average of These.cpp" />
+    <ClCompile Include="Assignment 3 - What%27s wrong problem 4.cpp" />
+    <ClCompile Include="Assignment 3 - What%27s wrong with program 3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
