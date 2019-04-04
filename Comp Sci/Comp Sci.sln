@@ -25,7 +25,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Review Exercises - Chapter 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assignment_3_Build", "Assignment_3_Build\Assignment_3_Build.vcxproj", "{33759D45-39C8-41B2-B4B6-311C670D0158}"
 EndProject
+<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assignment_4_Build", "Assignment 4\Assignment 4.vcxproj", "{5398B0DE-C7F4-4EF5-AB87-F5BD4E8A2F5F}"
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Review Exercises - Chapter 4", "Review Exercises - Chapter 4\Review Exercises - Chapter 4.vcxproj", "{C1486ABB-A77B-4035-98C0-85CA991B7C81}"
+>>>>>>> 988bb0390a4ad15bf92c1eb12f1ef88cc0d3bb27
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,7 @@ Global
 		{33759D45-39C8-41B2-B4B6-311C670D0158}.Release|x64.Build.0 = Release|x64
 		{33759D45-39C8-41B2-B4B6-311C670D0158}.Release|x86.ActiveCfg = Release|Win32
 		{33759D45-39C8-41B2-B4B6-311C670D0158}.Release|x86.Build.0 = Release|Win32
+<<<<<<< HEAD
 		{5398B0DE-C7F4-4EF5-AB87-F5BD4E8A2F5F}.Debug|x64.ActiveCfg = Debug|x64
 		{5398B0DE-C7F4-4EF5-AB87-F5BD4E8A2F5F}.Debug|x64.Build.0 = Debug|x64
 		{5398B0DE-C7F4-4EF5-AB87-F5BD4E8A2F5F}.Debug|x86.ActiveCfg = Debug|Win32
@@ -131,6 +136,16 @@ Global
 		{5398B0DE-C7F4-4EF5-AB87-F5BD4E8A2F5F}.Release|x64.Build.0 = Release|x64
 		{5398B0DE-C7F4-4EF5-AB87-F5BD4E8A2F5F}.Release|x86.ActiveCfg = Release|Win32
 		{5398B0DE-C7F4-4EF5-AB87-F5BD4E8A2F5F}.Release|x86.Build.0 = Release|Win32
+=======
+		{C1486ABB-A77B-4035-98C0-85CA991B7C81}.Debug|x64.ActiveCfg = Debug|x64
+		{C1486ABB-A77B-4035-98C0-85CA991B7C81}.Debug|x64.Build.0 = Debug|x64
+		{C1486ABB-A77B-4035-98C0-85CA991B7C81}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1486ABB-A77B-4035-98C0-85CA991B7C81}.Debug|x86.Build.0 = Debug|Win32
+		{C1486ABB-A77B-4035-98C0-85CA991B7C81}.Release|x64.ActiveCfg = Release|x64
+		{C1486ABB-A77B-4035-98C0-85CA991B7C81}.Release|x64.Build.0 = Release|x64
+		{C1486ABB-A77B-4035-98C0-85CA991B7C81}.Release|x86.ActiveCfg = Release|Win32
+		{C1486ABB-A77B-4035-98C0-85CA991B7C81}.Release|x86.Build.0 = Release|Win32
+>>>>>>> 988bb0390a4ad15bf92c1eb12f1ef88cc0d3bb27
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
