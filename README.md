@@ -29,7 +29,7 @@ There're no need to contribute anything and you will not find anyway to do it an
 * *Currently have no contributers*
 ## Licenese
 This project is maintained under my hand and are not under any licenesed. That being said, no one should be able to use this repository anyway so there are no need :stuck_out_tounge_winking_eye:
-##Acknowledgements
+## Acknowledgements
 * My friends and family :kissing:
 * Nelson you and me are gona make the biggest project this school can possibly handle **brofist**:punch:
 * *Pro. Edwin Ambrosio* Thank you for you lectures and all the works you have poured into making us a better programmer and person :satisfied:

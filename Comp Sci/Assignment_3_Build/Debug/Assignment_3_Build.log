@@ -1,5 +1,7 @@
 ﻿  Assignment 3 - Pennies for Pay.cpp
-d:\comp sci\comp_sci_1\comp sci\assignment_3_build\assignment 3 - pennies for pay.cpp(34): warning C4101: 'dollar': unreferenced local variable
+e:\computer science class\comp_sci_1\comp sci\assignment_3_build\assignment 3 - pennies for pay.cpp(34): warning C4101: 'dollar': unreferenced local variable
   Assignment 3 - The Greatest, Least, and Average of These.cpp
+  Assignment 3 - What's wrong problem 4.cpp
+  Assignment 3 - What's wrong with program 3.cpp
   Generating Code...
-  Assignment_3_Build.vcxproj -> D:\Comp Sci\Comp_Sci_1\Comp Sci\Debug\Assignment_3_Build.exe
+  Assignment_3_Build.vcxproj -> E:\Computer Science Class\Comp_Sci_1\Comp Sci\Debug\Assignment_3_Build.exe
