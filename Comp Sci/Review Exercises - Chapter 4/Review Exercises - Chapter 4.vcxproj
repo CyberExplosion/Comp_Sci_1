@@ -125,10 +125,21 @@
     <ClCompile Include="Algorithm Workbench - 29.cpp" />
     <ClCompile Include="Algorithm Workbench - 30.cpp" />
     <ClCompile Include="Programming Challenge - Areas of Rectangles.cpp" />
+    <ClCompile Include="Programming Challenge - Bank Charges.cpp" />
+    <ClCompile Include="Programming Challenge - Body Mass Index.cpp" />
     <ClCompile Include="Programming Challenge - Book Club Points.cpp" />
+    <ClCompile Include="Programming Challenge - Change for a Dollar Game.cpp" />
+    <ClCompile Include="Programming Challenge - Color Mixer.cpp" />
+    <ClCompile Include="Programming Challenge - February Days.cpp" />
+    <ClCompile Include="Programming Challenge - Geometry Calculator.cpp" />
     <ClCompile Include="Programming Challenge - Magic Dates.cpp" />
+    <ClCompile Include="Programming Challenge - Math Tutor Version 2.cpp" />
     <ClCompile Include="Programming Challenge - Minimum Maximum.cpp" />
+    <ClCompile Include="Programming Challenge - Personal Best.cpp" />
     <ClCompile Include="Programming Challenge - Roman Numeral Converter.cpp" />
+    <ClCompile Include="Programming Challenge - Running the Race.cpp" />
+    <ClCompile Include="Programming Challenge - Software Sales.cpp" />
+    <ClCompile Include="Programming Challenge - Time Calculator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

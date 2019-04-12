@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main_done5() {
 	short int books,
 		points = 0;
 
