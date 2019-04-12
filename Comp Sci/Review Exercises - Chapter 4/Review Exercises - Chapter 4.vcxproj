@@ -132,14 +132,18 @@
     <ClCompile Include="Programming Challenge - Color Mixer.cpp" />
     <ClCompile Include="Programming Challenge - Fat Gram Calculator.cpp" />
     <ClCompile Include="Programming Challenge - February Days.cpp" />
+    <ClCompile Include="Programming Challenge - Freezing and Boiling Points.cpp" />
     <ClCompile Include="Programming Challenge - Geometry Calculator.cpp" />
     <ClCompile Include="Programming Challenge - Magic Dates.cpp" />
     <ClCompile Include="Programming Challenge - Math Tutor Version 2.cpp" />
     <ClCompile Include="Programming Challenge - Minimum Maximum.cpp" />
+    <ClCompile Include="Programming Challenge - Mobile Service Provider.cpp" />
     <ClCompile Include="Programming Challenge - Personal Best.cpp" />
     <ClCompile Include="Programming Challenge - Roman Numeral Converter.cpp" />
     <ClCompile Include="Programming Challenge - Running the Race.cpp" />
     <ClCompile Include="Programming Challenge - Software Sales.cpp" />
+    <ClCompile Include="Programming Challenge - Spectral Analysis.cpp" />
+    <ClCompile Include="Programming Challenge - The Speed of Sound in Gases.cpp" />
     <ClCompile Include="Programming Challenge - The Speed of Sound.cpp" />
     <ClCompile Include="Programming Challenge - Time Calculator.cpp" />
   </ItemGroup>

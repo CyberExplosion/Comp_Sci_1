@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main_done17c() {
+int main_done17ch() {
 	double calories_from_fat,
 		fat_gram,
 		calories,
