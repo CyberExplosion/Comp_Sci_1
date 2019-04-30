@@ -51,5 +51,8 @@
     <ClCompile Include="Algorithm Workbench - 38.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Programming Challenge  - Characters for the ASCII Codes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

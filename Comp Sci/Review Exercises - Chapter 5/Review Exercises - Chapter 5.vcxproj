@@ -135,6 +135,7 @@
     <ClCompile Include="Algorithm Workbench - 38.cpp" />
     <ClCompile Include="Alogirth Workbench - 35.cpp" />
     <ClCompile Include="Alogirthm Workbench - 32.cpp" />
+    <ClCompile Include="Programming Challenge  - Characters for the ASCII Codes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

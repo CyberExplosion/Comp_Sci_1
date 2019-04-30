@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main_done38ch() {
 	ifstream input_file;
 	input_file.open("numbers.txt");
 
