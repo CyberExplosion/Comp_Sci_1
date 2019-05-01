@@ -3,7 +3,7 @@ using namespace std;
 
 bool either_24(int*, int n);
 
-int main() {
+int main_done3() {
 	int grades[5] = { 1,4,4,2,2 };
 
 	cout << either_24(grades, 5);

@@ -124,6 +124,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="2 or 4 next to each other.cpp" />
+    <ClCompile Include="Fill in the blank for following code.cpp" />
+    <ClCompile Include="Find error in following segment.cpp" />
     <ClCompile Include="hypotenuse function.cpp" />
     <ClCompile Include="what output.cpp" />
   </ItemGroup>

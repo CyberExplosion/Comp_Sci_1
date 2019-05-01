@@ -135,7 +135,16 @@
     <ClCompile Include="Algorithm Workbench - 38.cpp" />
     <ClCompile Include="Alogirth Workbench - 35.cpp" />
     <ClCompile Include="Alogirthm Workbench - 32.cpp" />
+    <ClCompile Include="Programmin Challenges - Pennies for Pay.cpp" />
+    <ClCompile Include="Programming Challenes - Distance Traveled.cpp" />
     <ClCompile Include="Programming Challenge  - Characters for the ASCII Codes.cpp" />
+    <ClCompile Include="Programming Challenge - Sum of Numbers.cpp" />
+    <ClCompile Include="Programming Challenges - Calories Burned.cpp" />
+    <ClCompile Include="Programming Challenges - Celsius to Fahrenheit Table.cpp" />
+    <ClCompile Include="Programming Challenges - Circle Areas.cpp" />
+    <ClCompile Include="Programming Challenges - Ocean Levels.cpp" />
+    <ClCompile Include="Programming Challenges - Speed Conversion CHart.cpp" />
+    <ClCompile Include="Programming Challenges - Weight Loss.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -24,5 +24,11 @@
     <ClCompile Include="2 or 4 next to each other.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Find error in following segment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fill in the blank for following code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
