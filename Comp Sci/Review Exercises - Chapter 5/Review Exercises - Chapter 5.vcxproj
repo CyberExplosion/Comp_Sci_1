@@ -136,14 +136,19 @@
     <ClCompile Include="Alogirth Workbench - 35.cpp" />
     <ClCompile Include="Alogirthm Workbench - 32.cpp" />
     <ClCompile Include="Programmin Challenges - Pennies for Pay.cpp" />
+    <ClCompile Include="Programming Challegens - Random Number Guessing Game Enhancement.cpp" />
     <ClCompile Include="Programming Challenes - Distance Traveled.cpp" />
     <ClCompile Include="Programming Challenge  - Characters for the ASCII Codes.cpp" />
     <ClCompile Include="Programming Challenge - Sum of Numbers.cpp" />
     <ClCompile Include="Programming Challenges - Calories Burned.cpp" />
     <ClCompile Include="Programming Challenges - Celsius to Fahrenheit Table.cpp" />
     <ClCompile Include="Programming Challenges - Circle Areas.cpp" />
+    <ClCompile Include="Programming Challenges - Membership Fees Increase.cpp" />
     <ClCompile Include="Programming Challenges - Ocean Levels.cpp" />
+    <ClCompile Include="Programming Challenges - Random number Guessing Game.cpp" />
     <ClCompile Include="Programming Challenges - Speed Conversion CHart.cpp" />
+    <ClCompile Include="Programming Challenges - Student Line-Up.cpp" />
+    <ClCompile Include="Programming Challenges - The Greatest and Least of These.cpp" />
     <ClCompile Include="Programming Challenges - Weight Loss.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
