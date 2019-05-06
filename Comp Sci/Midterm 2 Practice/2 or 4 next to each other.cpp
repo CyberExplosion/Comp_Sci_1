@@ -13,8 +13,7 @@ int main_done3() {
 
 bool either_24(int *array_name, int size) {
 	bool next_to_each_other_2 = false,
-		next_to_each_other_4 = false,
-		result;
+		next_to_each_other_4 = false;
 	
 	for (int i = 0; i < size - 1; i++) { // got to add -1 or else would run out of array bound
 		// Test for if 2 number 2 next to each other, the thing would be true
@@ -27,9 +26,8 @@ bool either_24(int *array_name, int size) {
 		}
 	}
 	if (next_to_each_other_2 != next_to_each_other_4) {
-		result = true;
+		return true;
 	}
-	else result = false;
-
-	return result;
+	else return false;
+	
 }
