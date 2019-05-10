@@ -1,14 +1,22 @@
-// Khoi Nguyen
-
-
+//Khoi Nguyen
+//CS1, Section #0109
+//Assignment #5, Problem #1
+//
 
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <string>
 using namespace std;
 
 bool NoDuplicate(int, int[], int);
-int GenWinNums();
+void GenWinNums(int[], int);
+void getLottoPicks(int[], int);
+bool PlayorQuit();
+int NumberofMatches(int[], int[], int size);
+void Result(int, int[], int[],int);
 
-int main() {
+int main_done1() {
 /*Pseudo Code
 	Input:
 		User decision
@@ -58,16 +66,52 @@ int main() {
 		Return the number of times two values are equal to each other in those 2 arrays
 		Display the name and the rewards
 */
+	const int SIZE = 7;
+	int WinningNum[SIZE] = { 0,0,0,0,0,0,0 },
+	UserTicket[SIZE] = { 0,0,0,0,0,0,0 }; 
+
+	GenWinNums(WinningNum, SIZE);
+	for (int i = 0; i < SIZE; i++) {
+		cout << *(WinningNum + i) << endl;
+	}
+	getLottoPicks(UserTicket, SIZE);
+	for (int k = 0; k < SIZE; k++) {
+		cout << *(UserTicket + k) << endl;
+	}
+	cout << "Number of matches: ";
+	cout << NumberofMatches(UserTicket, WinningNum, SIZE);
+
 	return 0;
 }
 
 /**********************
 FUNCTION NAME: getLottoPicks
-INPUT: a int value from 1-40
-OUTPUT: an integer
+INPUT: the UserTicket[] array and its' size
+OUTPUT: nothing
 DESCRIPTION: The function will use another function called NoDuplicate() that return true or false. If true, the function then will add the int value inputed into the corresponding array slot in the UserTicket[] array. If false, the function keeps prompting the user to enter a number that is not a duplication and inside the range of 1-40
 **********************/
+void getLottoPicks(int arr[], int size) {
+	int user_number;
 
+	for (int i = 0; i < size; i++) {
+		cout << "Please enter number " << i+1 << ": ";
+		cin >> user_number;
+		
+		while (user_number < 1 || user_number>40 || !NoDuplicate(user_number, arr, size)) {
+			if (!NoDuplicate(user_number, arr, size)) {
+				cout << "No duplicate numbers are accepted. Please enter another number: ";
+				cin >> user_number;
+			}
+			if (user_number < 1 || user_number>40) {
+				cout << "The number must be between 1 and 40. Please enter another number: ";
+				cin >> user_number;
+			}
+		}
+		cout << endl;
+		*(arr + i) = user_number;
+	}
+	return;
+}
 /***********************
 FUNCTION NAME: NoDuplicate
 INPUT: an integer, an array, the array size
@@ -75,7 +119,7 @@ OUTPUT: a boolean value
 DESCRIPTION: The function will test the integer with corresponding array to see if there is a duplication or not. The integer being inputed will be test with all the values in the array, then 
 ************************/
 bool NoDuplicate(int test_value, int arr[], int arr_size) {
-	for (int i; i < arr_size; i++) {
+	for (int i=0; i < arr_size; i++) {
 		if (test_value == *(arr + i)) {
 			return false;
 		}
@@ -85,11 +129,84 @@ bool NoDuplicate(int test_value, int arr[], int arr_size) {
 
 /***********************
 FUNCTION NAME: GenWinNums
-INPUT: nothing
+INPUT: WinningNum[] array and its size
 OUTPUT: a int value from 1-40
 DESCRIPTION: The function will randomly generate a number from 1-40. The number then will be tested using the NoDuplicate() function. If the function return true, then the number will be add in its' corresponding slot in WinningNum[] array. If false, another number will be randomly generated and test again using the NoDuplicate() function, looping until the function return true. 
 ************************/
-int GenWinNums() {
-	
+void GenWinNums(int arr[], int size) {
+	int random_num;
+
+	srand(time(0));
+	random_num = rand() % 40 + 1;
+
+	for (int l = 0; l < size; l++) {
+		while (!NoDuplicate(random_num, arr, size)) {
+			random_num = rand() % 40 + 1;
+		}
+		
+		*(arr + l) = random_num;
+	}
+	return;
 }
 
+bool PlayorQuit() {
+	char choice = '1';
+	int c = choice;
+
+	cout << "LITTLETON CITY LOTTO MODEL: " << endl;
+	cout << "----------------------------" << endl;
+	cout << "1) Play lotto" << endl;
+	cout << "Q) Quit Program" << endl;
+	cout << "Please make a selection" << endl;
+	cin >> choice;
+
+	//ASCII code if 1 is inputed
+	if (choice == 49)
+		choice = true;
+
+	//ASCII code if q is inputed
+	if (tolower(choice) == 'q')
+		choice = false;
+
+	return choice;
+}
+
+/*****************************
+FUNCTION NAME: NumberofMatches
+INPUT: the User array, the winning array, and their size
+OUTPUT: integer, the number of matches 2 array have
+DESCRIPTION: The function runs through both array and count every time a value inside the user array have a match with another value in the computer array
+******************************/
+int NumberofMatches(int array_user[], int array_com[], int size) {
+	int matches = 0;
+	
+	for (int b = 0; b < size; b++) {
+		if (*(array_user + b) == *(array_com + b)) {
+			matches++;
+		}
+	}
+
+	return matches;
+}
+
+void Result(int matches, int user[], int com[], int size) {
+	switch (NumberofMatches(user, com, size)) {
+	case 7:
+		cout << "JACKPOT!!! - $1 MILLION";
+		break;
+	case 6:
+		cout << "GREAT! - $100,000";
+		break;
+	case 5:
+		cout << "LUCKY YOU! - $5,000";
+		break;
+	case 4:
+		cout << "NOT BAD - $100";
+		break;
+	case 3:
+		cout << "FREE TICKET";
+		break;
+	default:
+		cout << "SORRY NOTHING";
+	}
+}
