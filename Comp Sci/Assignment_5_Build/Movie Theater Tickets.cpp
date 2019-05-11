@@ -4,7 +4,7 @@ using namespace std;
 
 void readPrice(int[], int);
 
-int main() {
+int main_done2() {
 /*Pseudo Code
 Input:
 	prices.txt
@@ -57,7 +57,7 @@ Yes			|										|
 			|
 			end
 */
-
+	return 0;
 }
 
 /*************************

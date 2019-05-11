@@ -18,6 +18,9 @@
     <ClCompile Include="Lottery Checker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Median Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Movie Theater Tickets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

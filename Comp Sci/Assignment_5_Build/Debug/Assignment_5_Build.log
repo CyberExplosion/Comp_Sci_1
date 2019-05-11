@@ -1,5 +1,3 @@
-﻿  Lottery Checker.cpp
-  Movie Theater Tickets.cpp
-  Generating Code...
-E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment_5_Build\Lottery Checker.cpp(139,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Assignment_5_Build.vcxproj -> E:\Computer Science Class\Comp_Sci_1\Comp Sci\Debug\Assignment_5_Build.exe
+﻿  Median Function.cpp
+D:\Comp Sci\Comp_Sci_1\Comp Sci\Assignments_5_Release\Median Function.cpp(50): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Assignment_5_Build.vcxproj -> D:\Comp Sci\Comp_Sci_1\Comp Sci\Debug\Assignment_5_Build.exe
