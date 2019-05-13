@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-	int size,
-		orange = 20,
-		length;
-	
-	getline(cin, size);
-	cout << ""
+	char choice;
+
+	cout << "Enter choice: ";
+	cin >> choice;
+
+	if(choice)
 
 	return 0;
 }

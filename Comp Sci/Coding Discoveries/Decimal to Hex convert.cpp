@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main_done_fuk() {
 /*Pseudo Code
 Input:
 Ask to know how many digit will be input

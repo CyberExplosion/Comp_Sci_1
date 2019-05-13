@@ -6,10 +6,12 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <cctype>
 #include <string>
 #include <iomanip>
 using namespace std;
 
+//Function Prototype
 bool NoDuplicate(int, int[], int);
 void GenWinNums(int[], int);
 void getLottoPicks(int[], int);
@@ -17,61 +19,15 @@ int NumberofMatches(int[], int[], int size);
 void Result(int, int[], int[],int);
 
 int main() {
-/*Pseudo Code
-	Input:
-		User decision
-		user name
-		user number between 1 and 40
-		check for no duplication before putting in array
-		continue after 7 acceptable input entered
-	Processing:
-		Decision to play or not 
-			\
-			user name store
-			call getLottoPicks()
-				\
-				7 lotto numbers from the user
-					\
-					The lotto doesn't take any duplicate number 
-					-----> each number would be store in UserTicket_array[]
-					|
-					May want to create a function NoDuplicate() to check if the user's selection is already in the UserTicket[] array or not
-						\
-						User entered a duplicated number:
-							Prompt to enter another number
-							Looping until they enter a number that is not a duplicate
-			|
-			twice every week
-			|
-			call GenWinNums() two times
-				\
-				randomly generates the winning lotto number based on the rule
-				store the random number in the WinningNum[] array
-					\
-					the random number is between 1 and 40
-				|
-				Do not allow this function to generates duplicate winning numbers
-					\
-					Reuse the NoDuplicate() function to test for this
-			|
-			compare UserTicket[] array and WinningArray[]
-				\
-				count for how many number that is equal to each other in the same position in those two arrays
 
-	Output:
-		Use NoDuplicate to test before returning the value to array
-			\
-			return the getLottoPicks() to UserTicket[] array
-			return the GenWinNums() to WinningNums[] array
-		Return the number of times two values are equal to each other in those 2 arrays
-		Display the name and the rewards
-*/
+	//Variables and function calls
 	const int SIZE = 7;
 	int WinningNum[SIZE] = { 0,0,0,0,0,0,0 },
 	UserTicket[SIZE] = { 0,0,0,0,0,0,0 }; 
-	char choice;
+	int choice;
 	string name;
-
+	
+	//Prompt user to decide to play or not
 	do {
 		cout << "LITTLETON CITY LOTTO MODEL: " << endl;
 		cout << " -----------------------------" << endl;
@@ -79,13 +35,28 @@ int main() {
 		cout << "Q) Quit Program " << endl;
 		cout << "Please make a selection: " << endl;
 		cin >> choice;
-		if (toupper(choice) == 'Q')
-			return 0;
+		// 81 is the ASCII equivalent of 'Q'
+		if (toupper(choice) == 81 || (choice != 1)) {
+			cout << "\nMBYE MWBYE\n";
+			cout << "(D\n";
+			cout << "  3\n";
+			cout << "(D\n";
+			break;
+		}
 		cout << "Please enter your name: " << endl;
-		cin >> name;
+		cin.ignore(100, '\n');
+		getline(cin, name);
+		for (int u = 0; u < name.length(); u++) {
+			name[u] = toupper(name[u]);
+		}
 		cout << endl;
+
+		//call function
 		getLottoPicks(UserTicket, SIZE);
-		GenWinNums(WinningNum, SIZE);
+
+		//to make it run twice
+		for (int o =0; o < 2; o++ )
+			GenWinNums(WinningNum, SIZE);
 		cout << name << "'s LOTTO RESULTS" << endl;
 		cout << "--------------------------------" << endl;
 		cout << "WINNING TICKET NUMBERS: ";
@@ -105,8 +76,14 @@ int main() {
 		Result(NumberofMatches(UserTicket, WinningNum, SIZE), UserTicket, WinningNum, SIZE);
 		cout << endl << endl;
 		
-	} while (choice == 49);
+		for (int l = 0; l < SIZE; l++) {
+			*(WinningNum + l) = 0;
+		}
+		for (int v = 0; v < SIZE; v++) {
+			*(UserTicket + v) = 0;
+		}
 
+	} while (choice == 1);
 	return 0;
 }
 
@@ -175,7 +152,6 @@ void GenWinNums(int arr[], int size) {
 	return;
 }
 
-
 /*****************************
 FUNCTION NAME: NumberofMatches
 INPUT: the User array, the winning array, and their size
@@ -193,13 +169,12 @@ int NumberofMatches(int array_user[], int array_com[], int size) {
 
 	return matches;
 }
-
-/******************************
+/********************************************************
 FUNCTION NAME: Result
-INPUT: The number of matches from the NumberofMatches() function, the user array, the winning array and their size
+INPUT: Number of matches, number of user, number of com, and the size
 OUTPUT: nothing
-DESCRIPTION: The function takes in the number of matches the user get and from that display their reward.
-******************************/
+DESCRIPTION: This function displays what the user wins depending on their ticket number if it matches the winning number
+**********************************************************/
 void Result(int matches, int user[], int com[], int size) {
 	switch (NumberofMatches(user, com, size)) {
 	case 7:
