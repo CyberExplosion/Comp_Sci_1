@@ -4,7 +4,7 @@
 #include <fstream>
 using namespace std;
 
-int main_done34c() {
+int main_done32c() {
 	const int COUNTRY = 12;
 
 	vector<char> name(COUNTRY,'K');

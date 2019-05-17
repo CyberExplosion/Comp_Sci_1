@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int main() {
+int main_done34c() {
 	// This is how to make a 2d vector, a vector inside another vector. 7 is row and 24 is columns
 	vector<vector<int>> vect_2d(7, vector<int>(24));
 	double average;

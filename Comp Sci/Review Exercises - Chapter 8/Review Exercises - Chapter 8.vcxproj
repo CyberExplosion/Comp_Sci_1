@@ -126,6 +126,11 @@
     <ClCompile Include="Algorithm Workbench - 31.cpp" />
     <ClCompile Include="Programming Challenge - 32.cpp" />
     <ClCompile Include="Programming Challenge - 34.cpp" />
+    <ClCompile Include="Programming Challenge - 35.cpp" />
+    <ClCompile Include="Programming Challenge - Chips and Salsa.cpp" />
+    <ClCompile Include="Programming Challenge - Larger Than n.cpp" />
+    <ClCompile Include="Programming Challenge - Perfect Score.cpp" />
+    <ClCompile Include="Programming Challenge - Roman Numeral Converter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -24,5 +24,20 @@
     <ClCompile Include="Programming Challenge - 34.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Programming Challenge - 35.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Perfect Score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Larger Than n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Roman Numeral Converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Chips and Salsa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
