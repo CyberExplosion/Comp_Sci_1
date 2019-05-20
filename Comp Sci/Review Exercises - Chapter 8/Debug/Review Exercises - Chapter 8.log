@@ -1,2 +1,8 @@
-﻿  Programming Challenge - Roman Numeral Converter.cpp
-  Review Exercises - Chapter 8.vcxproj -> E:\Computer Science Class\Comp_Sci_1\Comp Sci\Debug\Review Exercises - Chapter 8.exe
+﻿  Programming Challenge - Lottery.cpp
+D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(13): warning C4018: '<': signed/unsigned mismatch
+D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(17): warning C4018: '<': signed/unsigned mismatch
+D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(22): warning C4018: '<': signed/unsigned mismatch
+D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(28): warning C4018: '<': signed/unsigned mismatch
+D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(32): warning C4018: '<': signed/unsigned mismatch
+  Review Exercises - Chapter 8.vcxproj -> D:\Comp Sci\Comp_Sci_1\Comp Sci\Debug\Review Exercises - Chapter 8.exe

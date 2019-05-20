@@ -39,5 +39,17 @@
     <ClCompile Include="Programming Challenge - Chips and Salsa.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Programming Challenge - Monkey Business.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming CHallenge - Rain or Shine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Lottery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Rainfall Statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

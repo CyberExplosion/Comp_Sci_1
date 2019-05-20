@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+int main_done4() {
 	struct Salsa {
 		vector<string> type {"milk", "medium", "sweet", "hot", "zesty"};
 		vector<int> jars;

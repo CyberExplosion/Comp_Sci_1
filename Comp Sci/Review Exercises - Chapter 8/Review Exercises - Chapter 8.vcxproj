@@ -129,7 +129,11 @@
     <ClCompile Include="Programming Challenge - 35.cpp" />
     <ClCompile Include="Programming Challenge - Chips and Salsa.cpp" />
     <ClCompile Include="Programming Challenge - Larger Than n.cpp" />
+    <ClCompile Include="Programming Challenge - Lottery.cpp" />
+    <ClCompile Include="Programming Challenge - Monkey Business.cpp" />
     <ClCompile Include="Programming Challenge - Perfect Score.cpp" />
+    <ClCompile Include="Programming CHallenge - Rain or Shine.cpp" />
+    <ClCompile Include="Programming Challenge - Rainfall Statistics.cpp" />
     <ClCompile Include="Programming Challenge - Roman Numeral Converter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
