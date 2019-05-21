@@ -1,8 +1,34 @@
-﻿  Programming Challenge - Lottery.cpp
-D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(13): warning C4018: '<': signed/unsigned mismatch
-D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(17): warning C4018: '<': signed/unsigned mismatch
-D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(22): warning C4018: '<': signed/unsigned mismatch
-D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(28): warning C4018: '<': signed/unsigned mismatch
-D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(32): warning C4018: '<': signed/unsigned mismatch
-  Review Exercises - Chapter 8.vcxproj -> D:\Comp Sci\Comp_Sci_1\Comp Sci\Debug\Review Exercises - Chapter 8.exe
+﻿  Algorithm Workbench - 31.cpp
+  Programming Challenge - 32.cpp
+  Programming Challenge - 34.cpp
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - 34.cpp(16,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - 34.cpp(17,21): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - 34.cpp(22,20): warning C4018:  '<': signed/unsigned mismatch
+  Programming Challenge - 35.cpp
+  Programming Challenge - Chips and Salsa.cpp
+  Programming Challenge - Larger Than n.cpp
+  Programming Challenge - Lottery.cpp
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - 34.cpp(30,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(12,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(13,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(17,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(22,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(28,20): warning C4018:  '<': signed/unsigned mismatch
+  Programming Challenge - Monkey Business.cpp
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Lottery.cpp(32,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Monkey Business.cpp(13,20): warning C4018:  '<': signed/unsigned mismatch
+  Programming Challenge - Perfect Score.cpp
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Monkey Business.cpp(14,21): warning C4018:  '<': signed/unsigned mismatch
+  Programming CHallenge - Rain or Shine.cpp
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Perfect Score.cpp(11,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming CHallenge - Rain or Shine.cpp(24,20): warning C4018:  '<': signed/unsigned mismatch
+  Programming Challenge - Rainfall Statistics.cpp
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming CHallenge - Rain or Shine.cpp(25,21): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Rainfall Statistics.cpp(26,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Rainfall Statistics.cpp(46,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Rainfall Statistics.cpp(51,9): warning C4244:  'return': conversion from 'double' to 'int', possible loss of data
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Rainfall Statistics.cpp(56,20): warning C4018:  '<': signed/unsigned mismatch
+  Programming Challenge - Roman Numeral Converter.cpp
+  Generating Code...
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Programming Challenge - Rainfall Statistics.cpp(61,9): warning C4244:  'return': conversion from 'double' to 'int', possible loss of data
+E:\Visual Studio 2019\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(725,5): error MSB6006: "link.exe" exited with code 1.
