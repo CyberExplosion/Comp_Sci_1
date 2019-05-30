@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="String Processing.cpp">
+    <ClCompile Include="String_Processing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

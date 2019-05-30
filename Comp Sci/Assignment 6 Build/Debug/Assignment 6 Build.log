@@ -1,2 +1,12 @@
-﻿  String Processing.cpp
+﻿  String_Processing.cpp
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(80,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(93,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(144,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(163,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(185,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(191,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(195,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(199,22): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(218,20): warning C4018:  '<': signed/unsigned mismatch
+E:\Computer Science Class\Comp_Sci_1\Comp Sci\Assignment 6 Build\String_Processing.cpp(247,20): warning C4018:  '<': signed/unsigned mismatch
   Assignment 6 Build.vcxproj -> E:\Computer Science Class\Comp_Sci_1\Comp Sci\Debug\Assignment 6 Build.exe
