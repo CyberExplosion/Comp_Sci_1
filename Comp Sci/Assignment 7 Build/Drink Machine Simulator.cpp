@@ -11,7 +11,7 @@ struct Drink {
 
 double checkingMoney(Drink drink_array[], int drink_num);
 int Selection_menu(Drink[]);
-double Change(Drink item[], int drink_num, double user_pay);
+void Change(Drink item[], int drink_num, double user_pay);
 void selectionSortResult(Drink[], int);
 
 int main() {
@@ -21,8 +21,10 @@ int main() {
 	drink[2] = { "Grape Soda", 0.75 };
 	drink[3] = { "Lemon-Lime", 0.85 };
 	drink[4] = { "Water", 0.90 };
-	double payment = 0;
+	// Original Drinks amount, considering all drinks start with the same amount
+	const int ORIGINAL_AMOUNT = drink->amount;
 	bool exit = false;
+	double total_revenue = 0;
 	do {
 		switch (Selection_menu(drink)) {
 		case 1:
@@ -57,6 +59,11 @@ int main() {
 			break;
 		case 6:
 			// Final function that calculates drink revenue and what left in the machine
+			for (int n = 0; n < 5; n++) {
+				total_revenue += ( ORIGINAL_AMOUNT - drink[n].amount) * drink[n].cost;
+			}
+			cout << endl;
+			cout << "Total Revenue: " << total_revenue << endl << endl; // << variable sum of drinks $
 			selectionSortResult(drink, 5);
 			exit = true;
 			break;
@@ -117,15 +124,15 @@ int Selection_menu(Drink item[]) {
 	return choice;
 }
 
-double Change(Drink item[], int drink_num, double user_pay) {
+void Change(Drink item[], int drink_num, double user_pay) {
 	double change = 0;
 	if (user_pay < 0) {
-		return 0;
 	}
 	else if (user_pay > 0) {
 		change = user_pay - item[drink_num - 1].cost;
+		cout << "Change: $" << change << endl;
 	}
-	return change;
+	return;
 }
 
 void selectionSortResult(Drink item[], int size) {
@@ -140,9 +147,6 @@ void selectionSortResult(Drink item[], int size) {
 		}
 		swap(item[i], item[minimum]);
 	}
-	cout << endl;
-	cout << "Total Revenue: " << endl; // << variable sum of drinks $
-	cout << endl;
 	cout << "Drink" << setw(20) << "Numbers Left" << endl;
 	cout << endl;
 	for (int k = 0; k < size; k++) {
@@ -150,4 +154,4 @@ void selectionSortResult(Drink item[], int size) {
 	}
 }
 
-/*Need to make a Total Revenue function*/
+/*Need to edit the result page to look a little bit better*/
