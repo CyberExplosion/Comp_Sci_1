@@ -135,6 +135,7 @@
     <ClCompile Include="Programming Challenge - Chapter 12 - 13.cpp" />
     <ClCompile Include="Programming Challenge - Chapter 12 - 17.cpp" />
     <ClCompile Include="Programming Challenge - Chapter 12 - 5.cpp" />
+    <ClCompile Include="Programming challenge - CHapter 13 - 5.cpp" />
     <ClCompile Include="Programming Challenge - Chapter 9 - 10.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -54,5 +54,8 @@
     <ClCompile Include="Programming Challenge - Chapter 12 - 13.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Programming challenge - CHapter 13 - 5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
