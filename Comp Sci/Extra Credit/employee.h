@@ -1,52 +1,113 @@
-//#pragma once
-#include <iomanip>
-#include <string>
+#ifndef EMPLOYEE_H
+#define EMPLOYEE_H
+
+// This "using namespace std" thing mess me up for a while. The Internet says it's bad practice but since the program is small i think it's fine
+using namespace std;
 
 class Employee {
 private:
-	string name;		//employee's first and last name
-	string idNumber;		//string variable that holds an employee's id number
-	string department;	//name of employee's department
-	string position;	//name of the employee's job title
-	int yearsWorked;	//holds number of years the employee has worked at the company
+	string name;
+	string idNumber;
+	string department;
+	string position;
+	int yearsWorked;
+
+	bool checkYears(int);
 
 public:
-	//Constructor
+	Employee(string, string, string, string, int);
+	Employee(string, string);
 	Employee();
-	Employee(string = "Nelson", string = "123456", string = "CEO", string = "Master Chef", int = 2000);
-	Employee(string = "Khoi", string = "789101", string = "", string = "", int = 0);
-
-	//Function Prototype - Definition
-	//Mutators
-	void setName(string name_cls) {
-		name = name_cls;
-	}
-	void setIdNum(string id_cls) {
-		idNumber = id_cls;
-	}
-	void setDepartment(string department_cls) {
-		department = department_cls;
-	}
-	void setPosition(string pos_cls) {
-		position = pos_cls;
-	}
-	void setyearsWorked(int year_cls) {
-		yearsWorked = year_cls;
-	}
-	//Accessors
-	string getName() {
-		return name;
-	}
-	string getIdNum() {
-		return idNumber;
-	}
-	string getDepartment() {
-		return deparment;
-	}
-	string getPosition() {
-		return position;
-	}
-	int getYearsWorked() {
-		return yearsWorked;
-	}
+	void setName(string);
+	void setidNumber(string);
+	void setDepartment(string);
+	void setPosition(string);
+	void setyearsWorked(int);
+	string getName();
+	string getidNumber();
+	string getDepartment();
+	string getPosition();
+	int getyearsWorked();
 };
+
+/*Implementation*/
+
+//Constructors:
+Employee::Employee() {
+	name = "";
+	idNumber = "";
+	department = "";
+	position = "";
+	yearsWorked = 0;
+}
+
+Employee::Employee(string name_con, string id_con, string department_con, string pos_con, int year) {
+	name = name_con;
+	idNumber = id_con;
+	department = department_con;
+	position = pos_con;
+	yearsWorked = year;
+}
+Employee::Employee(string name_con, string id_con) {
+	name = name_con;
+	idNumber = id_con;
+	department = "";
+	position = "";
+	yearsWorked = 0;
+}
+
+//Private Function
+bool Employee::checkYears(int years) {
+	if (years < 0) {
+		return false;
+	}
+	return true;
+}
+
+//Mutator Function
+void Employee::setName(string name_set) {
+	name = name_set;
+}
+void Employee::setidNumber(string id_set) {
+	idNumber = id_set;
+}
+
+void Employee::setDepartment(string set_department) {
+	department = set_department;
+}
+
+void Employee::setPosition(string set_pos) {
+	position = set_pos;
+}
+
+void Employee::setyearsWorked(int year) {
+	if (checkYears(year)) {
+		yearsWorked = year;
+	}
+	else {
+		cout << "Attempt to set yearsWorked for " << name << " was invalid. It was set to " << yearsWorked << ".\n";
+	}
+}
+
+//Accessors Functions
+string Employee::getName() {
+	return name;
+}
+
+string Employee::getidNumber() {
+	return idNumber;
+}
+
+string Employee::getDepartment() {
+	return department;
+}
+
+string Employee::getPosition() {
+	return position;
+}
+
+int Employee::getyearsWorked() {
+	return yearsWorked;
+}
+
+#endif // !EMPLOYEE_H
