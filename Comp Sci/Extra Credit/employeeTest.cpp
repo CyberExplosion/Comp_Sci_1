@@ -6,14 +6,17 @@
 using namespace std;
 
 int main_done1() {
+	// Create 3 different objects that use 3 different constructors
 	Employee employee_1("Jenny Jacobs", "JJ8990", "Accounting", "President", 15),
 		employee_2("Myron Smith", "MS7571"),
 		employee_3;
 
+	// Set value for object employee 2
 	employee_2.setDepartment("IT");
 	employee_2.setPosition("Programmer");
 	employee_2.setyearsWorked(5);
 	
+	//Set value for object employee 3
 	employee_3.setName("Chris Raines");
 	employee_3.setidNumber("CR6873");
 	employee_3.setDepartment("Manufacturing");

@@ -1,3 +1,8 @@
+//Khoi Nguyen
+//CS1, Section #0109
+//Extra Credit, Problem #2
+//The program utilizes the Stats class file to hold rainfall data and report annual rainfall statistics
+
 #include <iostream>
 #include <iomanip>
 #include "Stats.h"
@@ -10,6 +15,7 @@ int main() {
 	for (int i = 0; i <12; i++) {
 		cout << "Enter Month" << setw(3) << i + 1 << "'s rainfall amount: ";
 		cin >> rain_amount;
+		// User enter the value of each month
 		rainfall.setValue(i, rain_amount);
 	}
 	cout << endl;
@@ -17,7 +23,9 @@ int main() {
 	cout << "Annual Rainfall Report:\n";
 	cout << "Amounts:\n";
 	for (int j = 0; j < 12; j++) {
-		cout << "Month" << setw(3) << j + 1 << ":" << setw(7) << rainfall.getValue(j) << endl;
+		// getValue function that takes an argument as the month to display the amount of rain in such month
+		cout << "Month" << setw(3) << j + 1 << ":" << setw(7) << 
+		rainfall.getValue(j) << endl;
 	}
 	cout << endl;
 	cout << "Total: " << rainfall.getTotal() << endl;

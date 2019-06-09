@@ -23,16 +23,32 @@ public:
 	void setDepartment(string);
 	void setPosition(string);
 	void setyearsWorked(int);
-	string getName();
-	string getidNumber();
-	string getDepartment();
-	string getPosition();
-	int getyearsWorked();
+	
+	//Accessors Functions
+	string getName() {
+		return name;
+	}
+
+	string getidNumber() {
+		return idNumber;
+	}
+
+	string getDepartment() {
+		return department;
+	}
+
+	string getPosition() {
+		return position;
+	}
+
+	int getyearsWorked() {
+		return yearsWorked;
+	}
 };
 
-/*Implementation*/
-
 //Constructors:
+
+//DESCRIPTION: Set all attributes to empty string
 Employee::Employee() {
 	name = "";
 	idNumber = "";
@@ -40,7 +56,10 @@ Employee::Employee() {
 	position = "";
 	yearsWorked = 0;
 }
-
+/*******************
+INPUT: all 5 attributes data type
+DESCRIPTION: The constructor set every attributes of the object into the arguments.
+********************/
 Employee::Employee(string name_con, string id_con, string department_con, string pos_con, int year) {
 	name = name_con;
 	idNumber = id_con;
@@ -48,6 +67,10 @@ Employee::Employee(string name_con, string id_con, string department_con, string
 	position = pos_con;
 	yearsWorked = year;
 }
+/********************
+INPUT: first 2 attribute data type
+DESCRIPTION: The constructor set the name attribute and the idNumber attribute of the object into arguments.
+*********************/
 Employee::Employee(string name_con, string id_con) {
 	name = name_con;
 	idNumber = id_con;
@@ -57,6 +80,12 @@ Employee::Employee(string name_con, string id_con) {
 }
 
 //Private Function
+/*****************************
+FUNCTION NAME: checkYears
+INPUT: an integer as years worked
+OUTPUT: boolean value
+DESCRIPTION: The functions check if the input years is bigger than 0 or not. If it's bigger than 0, return true. If smaller than 0, return false
+*****************************/
 bool Employee::checkYears(int years) {
 	if (years < 0) {
 		return false;
@@ -87,27 +116,6 @@ void Employee::setyearsWorked(int year) {
 	else {
 		cout << "Attempt to set yearsWorked for " << name << " was invalid. It was set to " << yearsWorked << ".\n";
 	}
-}
-
-//Accessors Functions
-string Employee::getName() {
-	return name;
-}
-
-string Employee::getidNumber() {
-	return idNumber;
-}
-
-string Employee::getDepartment() {
-	return department;
-}
-
-string Employee::getPosition() {
-	return position;
-}
-
-int Employee::getyearsWorked() {
-	return yearsWorked;
 }
 
 #endif // !EMPLOYEE_H
