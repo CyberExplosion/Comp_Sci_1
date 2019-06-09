@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
+int main_done1() {
 	Employee employee_1("Jenny Jacobs", "JJ8990", "Accounting", "President", 15),
 		employee_2("Myron Smith", "MS7571"),
 		employee_3;
