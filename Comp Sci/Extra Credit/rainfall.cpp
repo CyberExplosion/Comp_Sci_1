@@ -8,7 +8,7 @@
 #include "Stats.h"
 using namespace std;
 
-int main() {
+int main_done() {
 	double rain_amount;
 	Stats rainfall;
 

@@ -5,23 +5,23 @@
 
 using namespace std;
 
-int main_done1() {
+int main() {
 	// Create 3 different objects that use 3 different constructors
-	Employee employee_1("Jenny Jacobs", "JJ8990", "Accounting", "President", 15),
+	Employee employee_1("Jenny Jacobs", "JJ8990", "Accounting", "President", -1),
 		employee_2("Myron Smith", "MS7571"),
 		employee_3;
 
 	// Set value for object employee 2
 	employee_2.setDepartment("IT");
 	employee_2.setPosition("Programmer");
-	employee_2.setyearsWorked(5);
+	employee_2.setyearsWorked(-1);
 	
 	//Set value for object employee 3
 	employee_3.setName("Chris Raines");
 	employee_3.setidNumber("CR6873");
 	employee_3.setDepartment("Manufacturing");
 	employee_3.setPosition("Engineer");
-	employee_3.setyearsWorked(30);
+	employee_3.setyearsWorked(-1);
 
 	cout << endl;
 	cout << "Name" << setw(20) << "ID Number" << setw(20) << "Department" << setw(20) << "Position" << setw(20) << "Years Worked" << endl;
