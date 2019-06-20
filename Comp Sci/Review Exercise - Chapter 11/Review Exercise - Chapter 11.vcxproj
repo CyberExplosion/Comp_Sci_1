@@ -23,8 +23,10 @@
     <ClCompile Include="Programming Challenge - Corporate Sales.cpp" />
     <ClCompile Include="Programming Challenge - Day of the Year Modification.cpp" />
     <ClCompile Include="Programming Challenge - Day of the Year.cpp" />
+    <ClCompile Include="Programming Challenge - HTML Table of Names and Scores.cpp" />
     <ClCompile Include="Programming Challenge - Number of Days Worked.cpp" />
     <ClCompile Include="Programming Challenge - Palindrome Testing.cpp" />
+    <ClCompile Include="Programming Challenge - Prime Number Generation.cpp" />
     <ClCompile Include="Programming Challenge - Rational Arithmetic I.cpp" />
     <ClCompile Include="Programming Challenge - String Encryption.cpp" />
   </ItemGroup>
