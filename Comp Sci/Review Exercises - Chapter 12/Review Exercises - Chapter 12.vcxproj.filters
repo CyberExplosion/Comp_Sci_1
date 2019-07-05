@@ -51,6 +51,9 @@
     <ClCompile Include="Programming Challenge - Check Writer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Programming Challenge - Digit Sums of Squares and Cubes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Check Writter.h">

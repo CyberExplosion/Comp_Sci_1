@@ -126,6 +126,7 @@
     <ClCompile Include="Alogrorithm Workbench - String.cpp" />
     <ClCompile Include="Programming Challenge - Case Manipulator.cpp" />
     <ClCompile Include="Programming Challenge - Check Writer.cpp" />
+    <ClCompile Include="Programming Challenge - Digit Sums of Squares and Cubes.cpp" />
     <ClCompile Include="Programming Challenge - Most Frequent Character.cpp" />
     <ClCompile Include="Programming Challenge - Name arranger.cpp" />
     <ClCompile Include="Programming Challenge - Phone Number List.cpp" />
