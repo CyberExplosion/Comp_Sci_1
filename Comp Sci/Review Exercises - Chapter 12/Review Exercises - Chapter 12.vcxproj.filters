@@ -54,6 +54,24 @@
     <ClCompile Include="Programming Challenge - Digit Sums of Squares and Cubes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Programming challenge - Word Separator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Pig Latin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - I before e except after c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - User Name.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - String Splitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming Challenge - Palindromic Numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Check Writter.h">
