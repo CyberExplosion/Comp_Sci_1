@@ -27,5 +27,11 @@
     <ClCompile Include="Tail of a File.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="String Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sentence Filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

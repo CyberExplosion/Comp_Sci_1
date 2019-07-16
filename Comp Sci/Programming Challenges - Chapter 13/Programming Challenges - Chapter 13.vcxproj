@@ -126,6 +126,8 @@
     <ClCompile Include="File Display Program.cpp" />
     <ClCompile Include="File Previewer.cpp" />
     <ClCompile Include="Punch Line.cpp" />
+    <ClCompile Include="Sentence Filter.cpp" />
+    <ClCompile Include="String Search.cpp" />
     <ClCompile Include="Tail of a File.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
