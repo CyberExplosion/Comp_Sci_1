@@ -128,6 +128,7 @@
     <ClCompile Include="File Encryption Filter.cpp" />
     <ClCompile Include="File Previewer.cpp" />
     <ClCompile Include="Insert Sort on a File I.cpp" />
+    <ClCompile Include="Insertion Sort on a File II.cpp" />
     <ClCompile Include="Letter Frequencies.cpp" />
     <ClCompile Include="Punch Line.cpp" />
     <ClCompile Include="Put It Back.cpp" />
