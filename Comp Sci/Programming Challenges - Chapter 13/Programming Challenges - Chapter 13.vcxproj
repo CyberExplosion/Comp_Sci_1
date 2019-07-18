@@ -123,9 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="File Decryption Filter.cpp" />
     <ClCompile Include="File Display Program.cpp" />
+    <ClCompile Include="File Encryption Filter.cpp" />
     <ClCompile Include="File Previewer.cpp" />
+    <ClCompile Include="Insert Sort on a File I.cpp" />
+    <ClCompile Include="Letter Frequencies.cpp" />
     <ClCompile Include="Punch Line.cpp" />
+    <ClCompile Include="Put It Back.cpp" />
     <ClCompile Include="Sentence Filter.cpp" />
     <ClCompile Include="String Search.cpp" />
     <ClCompile Include="Tail of a File.cpp" />

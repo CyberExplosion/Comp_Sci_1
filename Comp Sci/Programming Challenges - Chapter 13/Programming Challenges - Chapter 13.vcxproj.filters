@@ -33,5 +33,20 @@
     <ClCompile Include="Sentence Filter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="File Encryption Filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="File Decryption Filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Letter Frequencies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Put It Back.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Insert Sort on a File I.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
