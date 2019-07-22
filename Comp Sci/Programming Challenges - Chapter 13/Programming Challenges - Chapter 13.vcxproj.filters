@@ -51,5 +51,11 @@
     <ClCompile Include="Insertion Sort on a File II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Corporate Sales Data Output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Corporate Sales Data Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
