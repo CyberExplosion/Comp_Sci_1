@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="Corporate Sales Data Input.cpp" />
     <ClCompile Include="Corporate Sales Data Output.cpp" />
+    <ClCompile Include="Customer Accounts.cpp" />
     <ClCompile Include="File Decryption Filter.cpp" />
     <ClCompile Include="File Display Program.cpp" />
     <ClCompile Include="File Encryption Filter.cpp" />
