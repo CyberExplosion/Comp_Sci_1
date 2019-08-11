@@ -134,6 +134,7 @@
     <ClCompile Include="Insertion Sort on a File II.cpp" />
     <ClCompile Include="Inventory Program.cpp" />
     <ClCompile Include="Letter Frequencies.cpp" />
+    <ClCompile Include="Ordered by Name, Ordered by Age.cpp" />
     <ClCompile Include="Punch Line.cpp" />
     <ClCompile Include="Put It Back.cpp" />
     <ClCompile Include="Sentence Filter.cpp" />
