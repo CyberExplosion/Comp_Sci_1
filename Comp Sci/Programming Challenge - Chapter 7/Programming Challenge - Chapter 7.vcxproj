@@ -124,14 +124,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Car Class.cpp" />
+    <ClCompile Include="Coin Toss Simulator.cpp" />
     <ClCompile Include="Corporate Sales Data.cpp" />
     <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Fishing Game Simulation.cpp" />
     <ClCompile Include="Gratuity Calculator.cpp" />
     <ClCompile Include="Inventory Class.cpp" />
     <ClCompile Include="Monthly Budget Screen Form.cpp" />
     <ClCompile Include="Movie Data.cpp" />
+    <ClCompile Include="Moving Inchworm.cpp" />
+    <ClCompile Include="Patient Fees.cpp" />
     <ClCompile Include="Population.cpp" />
     <ClCompile Include="Report Heading.cpp" />
+    <ClCompile Include="Ups and Downs.cpp" />
     <ClCompile Include="Widget Factory.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
