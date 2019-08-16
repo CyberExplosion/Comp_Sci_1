@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm Workbench - 31.cpp" />
+    <ClCompile Include="Lo Shu Magic Square.cpp" />
     <ClCompile Include="Programming Challenge - 32.cpp" />
     <ClCompile Include="Programming Challenge - 34.cpp" />
     <ClCompile Include="Programming Challenge - 35.cpp" />

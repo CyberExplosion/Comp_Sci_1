@@ -1,2 +1,2 @@
-﻿D:\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Testing stuff from the CompSci Textbook.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Testing stuff from the CompSci Textbook.vcxproj -> H:\Computer Science Class\Comp Sci\Debug\Testing stuff from the CompSci Textbook - chapter 1.exe
+﻿D:\Microsoft Visual Studio 2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Testing stuff from the CompSci Textbook.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Testing stuff from the CompSci Textbook.vcxproj -> D:\Comp Sci\Comp_Sci_1\Comp Sci\Debug\Testing stuff from the CompSci Textbook - chapter 1.exe
