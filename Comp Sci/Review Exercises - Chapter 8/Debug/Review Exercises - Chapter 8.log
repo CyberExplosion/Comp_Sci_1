@@ -1,3 +1,4 @@
-﻿  Drink Machine Simulator.cpp
-D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Drink Machine Simulator.cpp(153): warning C4715:  'DrinkMachine::buyDrink': not all control paths return a value
+﻿  Tic Tac Toe Game.cpp
+D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Tic Tac Toe Game.cpp(140,20): warning C4018:  '<': signed/unsigned mismatch
+D:\Comp Sci\Comp_Sci_1\Comp Sci\Review Exercises - Chapter 8\Tic Tac Toe Game.cpp(142,21): warning C4018:  '<': signed/unsigned mismatch
   Review Exercises - Chapter 8.vcxproj -> D:\Comp Sci\Comp_Sci_1\Comp Sci\Debug\Review Exercises - Chapter 8.exe

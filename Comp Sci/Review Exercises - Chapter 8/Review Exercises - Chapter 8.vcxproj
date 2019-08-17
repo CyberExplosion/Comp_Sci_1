@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm Workbench - 31.cpp" />
+    <ClCompile Include="Bin Manager Class.cpp" />
     <ClCompile Include="Character Converter Class.cpp" />
     <ClCompile Include="Chips and Salsa Version 2.cpp" />
     <ClCompile Include="Drink Machine Simulator.cpp" />
@@ -140,6 +141,7 @@
     <ClCompile Include="Programming CHallenge - Rain or Shine.cpp" />
     <ClCompile Include="Programming Challenge - Rainfall Statistics.cpp" />
     <ClCompile Include="Programming Challenge - Roman Numeral Converter.cpp" />
+    <ClCompile Include="Tic Tac Toe Game.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
