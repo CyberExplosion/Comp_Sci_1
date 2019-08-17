@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm Workbench - 31.cpp" />
+    <ClCompile Include="Character Converter Class.cpp" />
+    <ClCompile Include="Chips and Salsa Version 2.cpp" />
+    <ClCompile Include="Drink Machine Simulator.cpp" />
+    <ClCompile Include="Driver%27s License Exam.cpp" />
     <ClCompile Include="Lo Shu Magic Square.cpp" />
     <ClCompile Include="Programming Challenge - 32.cpp" />
     <ClCompile Include="Programming Challenge - 34.cpp" />
