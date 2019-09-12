@@ -123,10 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ascending Circles.cpp" />
     <ClCompile Include="Batting Average.cpp" />
     <ClCompile Include="Change Account Validation.cpp" />
     <ClCompile Include="Hit the Slopes.cpp" />
     <ClCompile Include="Lottery Winners.cpp" />
+    <ClCompile Include="Modified Bin Manager Class.cpp" />
+    <ClCompile Include="Search Benchmarks.cpp" />
+    <ClCompile Include="Sorting Benchmarks.cpp" />
+    <ClCompile Include="Sorting Order.cpp" />
+    <ClCompile Include="String Selection Sort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
