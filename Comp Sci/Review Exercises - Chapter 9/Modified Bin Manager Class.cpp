@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//Ignore the second part of the problem because that would make the program super long and I'm wayyyyy too lazy for that
+
 class InvBin {
 private:
 	string description;
