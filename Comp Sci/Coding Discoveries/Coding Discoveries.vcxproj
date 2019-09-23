@@ -122,6 +122,7 @@
     <ClCompile Include="Count digitcpp.cpp" />
     <ClCompile Include="Decimal to Hex convert.cpp" />
     <ClCompile Include="Interger Data Types.cpp" />
+    <ClCompile Include="Nelson.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
