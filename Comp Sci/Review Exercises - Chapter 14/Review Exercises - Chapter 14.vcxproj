@@ -127,7 +127,9 @@
     <ClCompile Include="Predict the Output.cpp" />
     <ClCompile Include="Recursive Array Sum.cpp" />
     <ClCompile Include="Recursive Conversion.cpp" />
+    <ClCompile Include="Recursive Member Test.cpp" />
     <ClCompile Include="Recursive Multiplication.cpp" />
+    <ClCompile Include="String Reverser.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
