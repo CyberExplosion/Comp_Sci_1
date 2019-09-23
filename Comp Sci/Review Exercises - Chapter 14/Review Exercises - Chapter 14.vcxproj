@@ -123,7 +123,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ackermann%27s Function.cpp" />
     <ClCompile Include="Iterative Factorial.cpp" />
+    <ClCompile Include="Palindrome Testing.cpp" />
     <ClCompile Include="Predict the Output.cpp" />
     <ClCompile Include="Recursive Array Sum.cpp" />
     <ClCompile Include="Recursive Conversion.cpp" />

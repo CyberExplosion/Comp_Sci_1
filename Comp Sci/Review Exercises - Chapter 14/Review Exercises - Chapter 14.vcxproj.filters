@@ -36,5 +36,11 @@
     <ClCompile Include="String Reverser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Palindrome Testing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ackermann%27s Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
