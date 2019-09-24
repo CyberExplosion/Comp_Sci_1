@@ -42,5 +42,8 @@
     <ClCompile Include="Ackermann%27s Function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ancestral Trees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ackermann%27s Function.cpp" />
+    <ClCompile Include="Ancestral Trees.cpp" />
     <ClCompile Include="Iterative Factorial.cpp" />
     <ClCompile Include="Palindrome Testing.cpp" />
     <ClCompile Include="Predict the Output.cpp" />
