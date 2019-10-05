@@ -126,6 +126,7 @@
     <ClCompile Include="Linked List Operation.cpp" />
     <ClCompile Include="Program 17-1.cpp" />
     <ClCompile Include="Program 17-2.cpp" />
+    <ClCompile Include="Recursive Linked List.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
