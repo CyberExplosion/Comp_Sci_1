@@ -124,7 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm Workbench - 11.cpp" />
+    <ClCompile Include="Arthimetic Exceptions.cpp" />
     <ClCompile Include="C++ Language Element.cpp" />
+    <ClCompile Include="Min Max Templates.cpp" />
+    <ClCompile Include="Rotate Left.cpp" />
+    <ClCompile Include="Sequenece Accumulation.cpp" />
+    <ClCompile Include="String Bound Exceptions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
