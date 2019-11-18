@@ -36,5 +36,17 @@
     <ClCompile Include="Rotate Left.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Template Reversal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleVector Modification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Two Dimensional Data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pascal Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

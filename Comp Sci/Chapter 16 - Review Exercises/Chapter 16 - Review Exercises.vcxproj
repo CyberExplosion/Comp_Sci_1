@@ -127,9 +127,13 @@
     <ClCompile Include="Arthimetic Exceptions.cpp" />
     <ClCompile Include="C++ Language Element.cpp" />
     <ClCompile Include="Min Max Templates.cpp" />
+    <ClCompile Include="Pascal Triangle.cpp" />
     <ClCompile Include="Rotate Left.cpp" />
     <ClCompile Include="Sequenece Accumulation.cpp" />
+    <ClCompile Include="SimpleVector Modification.cpp" />
     <ClCompile Include="String Bound Exceptions.cpp" />
+    <ClCompile Include="Template Reversal.cpp" />
+    <ClCompile Include="Two Dimensional Data.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

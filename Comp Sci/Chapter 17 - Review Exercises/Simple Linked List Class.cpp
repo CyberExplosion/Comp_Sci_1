@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//Added challenge 2, 3, 4, 5, 6
+//Added challenge 2, 3, 4, 5, 6, 7, 8
 
 class LinkedList {
 protected:
@@ -28,31 +28,44 @@ public:
 	bool isMember(double x);
 	void print();
 	void reverse();
+	int search(double x);
+	void insert(double x, int pos);
+	void remove(int pos);
+	void sort();
 };
 
 int main() {
 	LinkedList list;
-	list.add(10);
+	//list.add(10);
 	list.add(20);
 	list.add(30);
 
-	if (list.isMember(20)) {
-		cout << "This is a member\n";
-	}
-	else {
-		cout << "It's not a member\n";
-	}
+	//if (list.isMember(20)) {
+	//	cout << "This is a member\n";
+	//}
+	//else {
+	//	cout << "It's not a member\n";
+	//}
 
-	LinkedList list1(list);
-	if (list1.isMember(10)) { 
-		cout << "List 1 copy success\n";
-	}
-	else {
-		cout << "failed\n";
-	}
-	list.remove(20);
+	//LinkedList list1(list);
+	//if (list1.isMember(10)) { 
+	//	cout << "List 1 copy success\n";
+	//}
+	//else {
+	//	cout << "failed\n";
+	//}
+	//list.remove(20);
+	//list.print();
+	//cout << "\n========================\n";
+	//cout << list.search(10) << endl;
+	//list.insert(25, 1);
+	//list.print();
+	//cout << endl;
+	//list.remove(2);
+	//list.print();
+	//cout << endl;
+	list.sort();
 	list.print();
-
 	return 0;
 }
 
@@ -171,4 +184,104 @@ bool LinkedList::isMember(double x) {
 
 void LinkedList::print() {
 	printRecursive(head);
+}
+
+void LinkedList::reverse() {
+	head = recursiveReverse(head);
+}
+
+int LinkedList::search(double x) {
+	int rank = 0;
+	Node* ptr = head;
+
+	if (head == nullptr) {
+		return -1;
+	}
+	while (ptr!= nullptr) {
+		if (ptr->val == x)
+			return rank;
+		rank++;
+		ptr = ptr->next;
+	}
+	return -1;
+}
+
+void LinkedList::insert(double x, int pos) {
+	if (pos == 0) {
+		head = new Node(x, head);
+		return;
+	}
+	if (head == nullptr) {
+		head = new Node(x, head);
+		return;
+	}
+	int size = 0;
+	Node* ptr = head;
+
+	while (ptr!= nullptr) {
+		//In middle of linked list
+		if (pos == size + 1) {
+			//If position we want to insert into is the next node
+			ptr->next = new Node(x, ptr->next);
+			return;
+		}
+		ptr = ptr->next;
+		size++;
+	}
+	//At the end of linked list
+	if (pos >= size) {
+		ptr = new Node(x);
+	}
+}
+
+void LinkedList::remove(int pos) {
+	if (head == nullptr)
+		return;
+	Node* ptr = head->next;
+	if (pos == 0) {
+		delete head;
+		head = ptr;
+		return;
+	}
+	ptr = head;
+	int size = 0;
+	while (ptr != nullptr) {
+		if (pos == size + 1) {
+			Node* garbage = ptr->next;
+			ptr->next = ptr->next->next;
+			delete garbage;
+			return;
+		}
+		ptr = ptr->next;
+		size++;
+	}
+}
+
+
+//Use recursion, insertion sort or merge sort is required for this
+void LinkedList::sort() {
+	if (head == nullptr)
+		return;
+	if (head->next == nullptr)
+		return;
+
+	//Bubble swap
+	bool swapFlag;
+	Node* ptr = head,
+		* prev_ptr = ptr;
+	do {
+		swapFlag = false;
+		while (ptr != nullptr) {
+			if (prev_ptr->val > ptr->val) {
+				prev_ptr->next = ptr->next;
+				//Swap the head after the swap
+				head = ptr;
+				ptr->next = prev_ptr;
+				swapFlag = true;
+			}
+			prev_ptr = ptr;
+			ptr = ptr->next;
+		}
+	} while (swapFlag);
+
 }
