@@ -33,16 +33,21 @@ int main() {
 	tree.insert(12);
 	tree.insert(9);
 	tree.inorder(num);
+	if (tree.search(0)) {
+		cout << "found \n";
+	}
+	else
+		cout << "Not found\n";
 	for (double val : num)
 		cout << val << endl;
 	cout << "Done.\n";
 }
 
 bool BinaryTree::search(double x, TreeNode* t) {
-	while (!t) {
+	while (t) {
 		if (t->value == x)
 			return true;
-		else if (t->value < x)
+		else if (x < t->value)
 			t = t->left;
 		else
 			t = t->right;
