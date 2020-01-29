@@ -27,5 +27,20 @@
     <ClCompile Include="Chapter 10 - Pardon me, do you have the time.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Putting Data on the World Wide Web - Chapter 11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Program Execution Environments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="File Merging and Color-Coded HTML - Chapter 13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Infix and Prefix Expression - Chapter 14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Let%27s move it - Chapter 15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

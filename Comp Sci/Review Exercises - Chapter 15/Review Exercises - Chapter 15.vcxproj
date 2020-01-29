@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClCompile Include="Algorithm Workbench - 20.cpp" />
     <ClCompile Include="Analysis of Sorting Algorithms.cpp" />
+    <ClCompile Include="Bow Tie.cpp" />
     <ClCompile Include="Bumper Shapes.cpp" />
     <ClCompile Include="File Filter.cpp" />
     <ClCompile Include="Flexiblie Encryption.cpp" />
