@@ -42,5 +42,8 @@
     <ClCompile Include="Let%27s move it - Chapter 15.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Words Transformers Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
