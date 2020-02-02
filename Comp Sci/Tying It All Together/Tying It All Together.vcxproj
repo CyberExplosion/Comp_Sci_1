@@ -146,6 +146,7 @@
     <ClCompile Include="Let%27s move it - Chapter 15.cpp" />
     <ClCompile Include="Program Execution Environments.cpp" />
     <ClCompile Include="Putting Data on the World Wide Web - Chapter 11.cpp" />
+    <ClCompile Include="Words Transformers Game.cpp" />
     <ClCompile Include="Yoyo Animation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -3,29 +3,31 @@
 //using namespace std;
 //
 //class BCheckString : public string {
-//private:
 //public:
-//	//Exception Class
-//	class BoundsException {};
-//	//Stuffs
+//	class BoundsException {
+//	public:
+//		int index;
+//		BoundsException(int i) : index(i) {};
+//	};
 //	BCheckString(string s) : string(s) {};
-//	char operator[](int k);
+//	char operator[](int k) {
+//		if (k < 0 || k >= size())
+//			throw BoundsException(k);
+//		return this->at(k);
+//	}
 //};
+//
 //
 //int main() {
 //	BCheckString name("Khoi");
+//	int num;
+//	cout << "Choose the index character you want: ";
+//	cin >> num;
 //	try {
-//		cout << name[5] << endl;
+//		cout << "The char ";
+//		cout << "is: " << name[num] << endl;
 //	}
-//	catch (BCheckString::BoundsException) {
-//		cout << "This value is out of range\n";
+//	catch (BCheckString::BoundsException& ex) {
+//		cout << "is not inbound. Index " << ex.index << " is not valid.\n";
 //	}
-//	cout << "This is the end\n";
-//}
-//
-//char BCheckString::operator[](int k) {
-//	if (k < 0 || k >= size()) {
-//		throw BoundsException();
-//	}
-//	return at(k);
 //}
