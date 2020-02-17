@@ -24,5 +24,11 @@
     <ClCompile Include="Dynamic Stack Template.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Static Queue Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Queue Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

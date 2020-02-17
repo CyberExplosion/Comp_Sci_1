@@ -138,8 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dynamic Queue Template.cpp" />
     <ClCompile Include="Dynamic Stack Template.cpp" />
     <ClCompile Include="Eliminating Recursion in Quick Sort.cpp" />
+    <ClCompile Include="Static Queue Template.cpp" />
     <ClCompile Include="Static Stack Template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
