@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//Added challenge 2, 3, 4, 5, 6, 7, 8
+//Added challenge 2, 3, 4, 5, 6, 7, 8, 9, 10
 
 class LinkedList {
 protected:
@@ -32,6 +32,9 @@ public:
 	void insert(double x, int pos);
 	void remove(int pos);
 	void sort();
+	Node* read();
+	Node* sort(Node* list1);
+	Node* merge(Node* list1, Node* list2);
 };
 
 int main() {
@@ -284,4 +287,22 @@ void LinkedList::sort() {
 		}
 	} while (swapFlag);
 
+}
+
+LinkedList::Node* LinkedList::read() {
+	int input;
+	do {
+		cout << "Enter a value for a node, -1 to terminate.\n";
+		cin >> input;
+		if (input < 0)
+			break;
+		add(input);
+	} while (input >= 0);
+	cout << "End of input\n";
+	return this->head;
+}
+
+LinkedList::Node* LinkedList::sort(Node* list1)
+{
+	
 }

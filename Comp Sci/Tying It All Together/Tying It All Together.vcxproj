@@ -141,9 +141,11 @@
     <ClCompile Include="Chapter 10 - Pardon me, do you have the time.cpp" />
     <ClCompile Include="Chapter 6 - Glowing Jack-o-lantern.cpp" />
     <ClCompile Include="Chapter 6 - Jack-o-lantern glowing.cpp" />
+    <ClCompile Include="Converting Postfix Expression to Infix.cpp" />
     <ClCompile Include="File Merging and Color-Coded HTML - Chapter 13.cpp" />
     <ClCompile Include="Infix and Prefix Expression - Chapter 14.cpp" />
     <ClCompile Include="Let%27s move it - Chapter 15.cpp" />
+    <ClCompile Include="More on Graphics and Animation.cpp" />
     <ClCompile Include="Program Execution Environments.cpp" />
     <ClCompile Include="Putting Data on the World Wide Web - Chapter 11.cpp" />
     <ClCompile Include="Words Transformers Game.cpp" />

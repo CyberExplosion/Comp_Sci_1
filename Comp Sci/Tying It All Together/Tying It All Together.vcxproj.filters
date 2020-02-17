@@ -45,5 +45,11 @@
     <ClCompile Include="Words Transformers Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="More on Graphics and Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Converting Postfix Expression to Infix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

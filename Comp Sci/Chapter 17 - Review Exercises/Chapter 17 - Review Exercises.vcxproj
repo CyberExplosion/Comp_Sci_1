@@ -124,9 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm Workbench - 9, 10, 11, 12, 13.cpp" />
+    <ClCompile Include="Generation of Subsets.cpp" />
     <ClCompile Include="Linked List Operation.cpp" />
+    <ClCompile Include="Linked List Template.cpp" />
     <ClCompile Include="Program 17-1.cpp" />
     <ClCompile Include="Program 17-2.cpp" />
+    <ClCompile Include="Recursive Generation of Subsets.cpp" />
     <ClCompile Include="Recursive Linked List.cpp" />
     <ClCompile Include="Simple Linked List Class.cpp" />
   </ItemGroup>

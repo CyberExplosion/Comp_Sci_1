@@ -33,5 +33,14 @@
     <ClCompile Include="Simple Linked List Class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Linked List Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Generation of Subsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursive Generation of Subsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
