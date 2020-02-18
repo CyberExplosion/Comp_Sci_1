@@ -1,5 +1,8 @@
 //#include <iostream>
+//#include <crtdbg.h>
 //using namespace std;
+//
+////Add challenge 5 Error testing
 //
 ////Exception
 //class Underflow{};
@@ -49,6 +52,11 @@
 //	catch (Underflow) {
 //		cout << "Everything works as expected\n";
 //	}
+//	
+//	//Check leaks
+//	if (_CrtDumpMemoryLeaks()) {
+//		cout << "Leaks\n";
+//	}
 //}
 //
 //template<typename T>
@@ -58,7 +66,12 @@
 //
 //template<typename T>
 //void DynStack<T>::push(T val) {
-//	top = new Node(val, top);
+//	try {
+//		top = new Node(val, top);
+//	}
+//	catch (std::bad_alloc) {
+//		cout << "ERROR: No new nodes can be made.\n";
+//	}
 //}
 //
 //template<typename T>

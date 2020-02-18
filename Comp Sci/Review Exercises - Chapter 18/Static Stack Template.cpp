@@ -1,6 +1,8 @@
 //#include <iostream>
 //using namespace std;
 //
+////Add challenge 8
+//
 ////Exception
 //class Overflow {};
 //class Underflow{};
@@ -13,6 +15,12 @@
 //	int capacity;
 //public:
 //	IntStack(int size);
+//
+//	//Copy Constructor
+//	IntStack(const IntStack& obj);
+//	//Assignment Operator
+//	IntStack& operator=(const IntStack<T>& obj);
+//
 //	void push(T val);
 //	void pop(T& val);
 //	bool isEmpty();
@@ -32,6 +40,25 @@
 //	catch (Underflow) {
 //		cout << "Empty stack.\n";
 //	}
+//	
+//	IntStack<int>stk2(2);
+//	stk2.push(20);
+//	stk2.push(15);
+//	IntStack<int>stkCopy(stk2);
+//	int out;
+//	while (!stkCopy.isEmpty()) {
+//		stkCopy.pop(out);
+//		cout << out << " ";
+//	}
+//	cout << "\n";
+//	IntStack<int>stkAssign(15);
+//	stkAssign = stk2;
+//	cout << "Assignment :\n";
+//	while (!stkAssign.isEmpty()) {
+//		stkAssign.pop(out);
+//		cout << out << " ";
+//	}
+//	cout << endl;
 //}
 //
 //template<typename T>
@@ -40,6 +67,29 @@
 //	capacity = size;
 //	top = 0;
 //}
+//
+//template<typename T>
+//IntStack<T>::IntStack(const IntStack& obj) : IntStack(obj.capacity) {
+//	for (int i = 0; i < this->capacity; i++) {
+//		this->stk[i] = obj.stk[i];
+//	}
+//	top = obj.top;
+//}
+//
+//template<typename T>
+//IntStack<T>& IntStack<T>::operator=(const IntStack<T>& obj) {
+//	capacity = obj.capacity;
+//	top = 0;
+//	this->stk.reset();
+//	stk = make_unique<T[]>(capacity);
+//	for (int i = 0; i < this->capacity; i++) {
+//		this->stk[i] = obj.stk[i];
+//	}
+//	top = obj.top;
+//	return *this;
+//}
+//
+//
 //
 //template<typename T>
 //void IntStack<T>::push(T val) {
