@@ -143,6 +143,7 @@
     <ClCompile Include="Dynamic String Queue.cpp" />
     <ClCompile Include="Eliminating Recursion in Quick Sort.cpp" />
     <ClCompile Include="File  Reverser.cpp" />
+    <ClCompile Include="Stack-based Binary Search.cpp" />
     <ClCompile Include="Static Queue Template.cpp" />
     <ClCompile Include="Static Stack Template.cpp" />
     <ClCompile Include="Test memory leak detection.cpp" />
